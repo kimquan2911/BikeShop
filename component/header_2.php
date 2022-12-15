@@ -9,14 +9,14 @@ session_start();
     }
 
     .header.shop .nav li:hover a {
-        background: #e28585;
+        background: black;
         border-radius: 30px;
     }
 </style>
 <!-- Header -->
 <header class="header shop">
     <!-- Topbar -->
-    <div class="topbar" style="background-color:#e28585 ;">
+    <div class="topbar" style="background-color: black ;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 col-md-12 col-12">
@@ -30,19 +30,17 @@ session_start();
                     <!--/ End Top Left -->
                 </div>
                 <div class="col-lg-7 col-md-12 col-12">
-                    <!-- Top Right -->
                     <div class="right-content">
                         <ul class="list-main">
                             <?php if (empty($_SESSION['id'])) { ?>
-                                <li><i style="color: #ffff;font-size: 14px;" class="fa-solid fa-user"></i><a style="color:#ffff ;" href="login.php">Đăng Nhập</a></li>
-                                <li><i style="color: #ffff;font-size: 14px;" class="fa-solid fa-right-to-bracket"></i><a style="color:#ffff ;" href="register.php">Đăng Ký</a></li>
+                                <!-- <li><i style="color: #ffff;font-size: 14px;" class="fa-solid fa-user"></i><a style="color:#ffff ;" href="login.php">Đăng Nhập</a></li>
+                                <li><i style="color: #ffff;font-size: 14px;" class="fa-solid fa-right-to-bracket"></i><a style="color:#ffff ;" href="register.php">Đăng Ký</a></li> -->
                             <?php } else { ?>
                                 <li><i style="color: #ffff;font-size: 14px;" class="fa-solid fa-user"></i><a style="color:#ffff ;" href=""><?php echo $_SESSION['name'] ?></a></li>
                                 <li><i style="color: #ffff;font-size: 14px;" class="fa-solid fa-right-from-bracket"></i><a style="color:#ffff ;" href="logout.php">Đăng Xuất</a></li>
                             <?php } ?>
                         </ul>
                     </div>
-                    <!-- End Top Right -->
                 </div>
             </div>
         </div>
@@ -54,7 +52,7 @@ session_start();
                 <div class="col-lg-2 col-md-2 col-12">
                     <!-- Logo -->
                     <div class="logo">
-                        <a href="index.php"><img src="./images/design_sua/logo.png" alt="logo" style="max-width: 150%;"></a>
+                        <a href="index.php"><img src="./images/logo_P.png" alt="logo" style="max-width: 120%;"></a>
                     </div>
                     <!--/ End Logo -->
                     <!-- Search Form -->
@@ -96,7 +94,7 @@ session_start();
                             <a href="#" class="single-icon"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
                         </div>
                         <div class="sinlge-bar">
-                            <a href="#" class="single-icon"><i class="fa fa-user-circle-o" aria-hidden="true"></i></a>
+                            <a href="login.php" class="single-icon"><i class="fa fa-user-circle-o" aria-hidden="true"></i></a>
                         </div>
                         <div class="sinlge-bar shopping">
                             <?php
@@ -158,20 +156,20 @@ session_start();
                                                                                         align-items: center;
                                                                                         justify-content: center;
                                                                                         width: 100%;">
-                                    <li><a style="color:gray ;" href="index.php">HOME</a></li>
-                                    <li><a style="color:gray ;" href="#">PRODUCTS<i class="ti-angle-down"></i></a>
+                                    <li><a style="color:gray ;" href="index.php">Trang Chủ</a></li>
+                                    <li><a style="color:gray ;" href="#">Sản Phẩm<i class="ti-angle-down"></i></a>
                                         <ul class="dropdown">
-                                            <li><a style="color:gray ;" href="product_1.php">BIKES</a></li>
-                                            <li><a style="color:gray ;" href="product_2.php">ACCESSORIES</a></li>
+                                            <li><a style="color:gray ;" href="product_1.php">Chăm Sóc Da</a></li>
+                                            <li><a style="color:gray ;" href="product_2.php">Trang Điểm</a></li>
                                         </ul>
                                     </li>
-                                    <li><a style="color:gray ;" href="#">STORE<i class="ti-angle-down"></i><span class="new">New</span></a>
+                                    <li><a style="color:gray ;" href="#">Cửa Hàng<i class="ti-angle-down"></i><span class="new">New</span></a>
                                         <ul class="dropdown">
-                                            <li><a style="color:gray ;" href="view_cart.php">CART</a></li>
-                                            <li><a style="color:gray ;" href="">CHECK OUT</a></li>
+                                            <li><a style="color:gray ;" href="view_cart.php">Giỏ Hàng</a></li>
+                                            <li><a style="color:gray ;" href="">Thanh Toán</a></li>
                                         </ul>
                                     </li>
-                                    <li><a style="color:gray ;" href="contact.php">CONTACT</a></li>
+                                    <li><a style="color:gray ;" href="contact.php">Liên Hệ</a></li>
                                 </ul>
                             </div>
                         </div>
