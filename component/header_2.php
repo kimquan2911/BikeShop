@@ -37,7 +37,7 @@ session_start();
                                 <li><i style="color: #ffff;font-size: 14px;" class="fa-solid fa-right-to-bracket"></i><a style="color:#ffff ;" href="register.php">Đăng Ký</a></li> -->
                             <?php } else { ?>
                                 <li><i style="color: #ffff;font-size: 14px;" class="fa-solid fa-user"></i><a style="color:#ffff ;" href=""><?php echo $_SESSION['name'] ?></a></li>
-                                <li><i style="color: #ffff;font-size: 14px;" class="fa-solid fa-right-from-bracket"></i><a style="color:#ffff ;" href="logout.php">Đăng Xuất</a></li>
+                                <li><i style="color: #ffff;font-size: 14px;" class="fa-solid fa-right-from-bracket"></i><a style="color:#ffff ;" href="logout.php">Log out</a></li>
                             <?php } ?>
                         </ul>
                     </div>

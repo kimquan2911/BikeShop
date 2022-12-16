@@ -34,25 +34,71 @@ if (isset($_SESSION['id'])) {
     include 'component/header_2.php'
     ?>
     <div class="container" style="margin-bottom: 50px;">
-        <div class="row">
-            <div class="col-sm-6">
-                <h2 style="font-size: 20px;font-family: 'Times New Roman', Times, serif;margin-bottom: 20px;">ĐĂNG NHẬP</h2>
-                <form method="POST" action="./component/process_login.php">
-                    <div class="form-group">
-                        <label style="font-size: 18px;font-family: 'Times New Roman', Times, serif;margin-bottom: 20px;">Email:</label>
-                        <input style="height: 40px;width: 80%;font-size: 14px" type="email" class="form-control" name="email" placeholder="Nhập email...">
-                    </div>
-                    <div class="form-group">
-                        <label style="font-size: 18px;font-family: 'Times New Roman', Times, serif;margin-bottom: 20px;">Mật khẩu:</label>
-                        <input style="height: 40px;width: 80%;font-size: 14px" type="password" class="form-control" name="password" placeholder="Nhập mật khẩu...">
-                    </div>
-                    <label style="font-size: 18px;font-family: 'Times New Roman', Times, serif;margin-bottom: 20px;">Nhớ mật khẩu</label>
-                    <input name="remember" type="checkbox">
-                    <br>
-                    <button style="height: 50px;border-radius: 5px;" class="btn btn-default">Đăng Nhập</button>
-                </form>
+        <div style="width: 100%; height: 600px; margin: 65px auto;">
+            <div style="width: 100%; height: 16%; font-size: 64px; font-weight: 700; text-align: center; line-height: 80px;text-transform: uppercase !important;list-style-type: none;">
+                <span style="font-size: 64px;
+                            font-weight: 700;
+                            -webkit-text-stroke: 1px #000;
+                            color: transparent;
+                            margin: auto;
+                            font-family: 'Raleway', sans-serif;">LOGIN</span>
             </div>
-            <div class="col-sm-6"><img src="./images/design_sua/img_product_banner_3.jpg" alt="" width="100%"></div>
+                <form method="POST" action="./component/process_login.php">
+                    <div style="width: 1094px;
+                                height: 38%;
+                                margin: 15px auto;
+                                border-left: 1px solid black;
+                                border-right: 1px solid black;">
+                        <div style="width: 50%;
+                                    height: 100%;
+                                    margin: auto;">
+                            <div style="margin-top: 20px;">
+                                <input style="width: 100%; height: 100%; margin: 30px auto;border: 1px solid black;padding: 15px 20px;" type="email" class="form-control" name="email" placeholder="Email...">                             
+                                <input style="width: 100%; height: 100%; margin: 30px auto;border: 1px solid black;padding: 15px 20px;" type="password" class="form-control" name="password" placeholder="Password...">                                             
+                            </div>
+                            <div style="display: flex; margin-top: 10px;">
+                                <input name="remember" type="checkbox">
+                                <label style="  line-height: 20px;
+                                                font-size: 16px;
+                                                margin-top: 5px;
+                                                margin-left: 5px;
+                                                font-weight: 300;
+                                                color: dimgray;">Remember</label> 
+                            </div>
+                        </div>         
+                        <button style=" text-decoration: none;
+                                        width: 40%;
+                                        height: 40px;
+                                        padding: 10px;
+                                        background-color: transparent;
+                                        color: dimgrey;
+                                        border: 1px solid dimgrey;
+                                        top: 65px;
+                                        font-size: 13px;
+                                        font-weight: 600;
+                                        display: block;
+                                        text-align: center;
+                                        transition: all .4s;
+                                        margin: 28px auto;">LOGIN</button>
+                        <hr style="width: 50%; margin: 0 auto; height: 1.5px;" >
+                        <a href="register.php" style="text-decoration: none;
+                                        width: 40%;
+                                        height: 40px;
+                                        padding: 14px;
+                                        background-color: transparent;
+                                        color: dimgrey;
+                                        border: 1px solid dimgrey;
+                                        top: 65px;
+                                        font-size: 13px;
+                                        font-weight: 600;
+                                        display: block;
+                                        text-align: center;
+                                        transition: all .4s; 
+                                        font-family: 'Poppins', sans-serif;
+                                        font-weight: 600;
+                                        margin: 28px auto;">CREATE ACCOUNT</a>
+                    </div>
+                </form>
         </div>
     </div>
 
