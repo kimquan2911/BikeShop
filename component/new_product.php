@@ -39,7 +39,7 @@ $result = mysqli_query($connect, $sql);
                             line-height: 1.6rem;
                             margin-top: 10px;"><?php echo $value['mo_ta'] ?></p>
                 <div class="product-price">
-                    <span style="color: #74140d;font-weight: bold;font-size: 18px;"><?php echo $value['gia'] ?> đ</span>
+                    <span style="color: #74140d;font-weight: bold;font-size: 18px;"><?php echo $value['gia'] ?> $</span>
                 </div>
             </div>
         </div>

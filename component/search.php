@@ -17,6 +17,6 @@ if(mysqli_num_rows($result)>0){
             font-size: 12px;"><?php echo $value['ten_san']?></p>
     <?php  endforeach ?>
     <?php  }else {?>
-        <p>Không có sản phẩm</p>
+        <p>NO INFORMATION</p>
     <?php  }?>
     

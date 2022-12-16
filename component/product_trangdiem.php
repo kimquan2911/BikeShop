@@ -31,7 +31,7 @@ $result = mysqli_query($connect, $sql);
                 <?php if (!empty($_SESSION['id'])) { ?>
                     <div class="button-head">
                         <div style="width: 100%; height: 48px;" class="product-action-2">
-                        <a style="width: 100%;" href="component/add_to_cart_td.php?id=<?php echo $value['id'] ?>"><button style="background-color: #5a90e5;width: 100%;" type="button" class="btn btn-primary" >Thêm vào giỏ hàng</button></a>
+                        <a style="width: 100%;" href="component/add_to_cart_td.php?id=<?php echo $value['id'] ?>"><button style="background-color: #5a90e5;width: 100%;" type="button" class="btn btn-primary" >ADD TO CART</button></a>
                         </div>
                     </div>
                 <?php } ?>
@@ -56,7 +56,7 @@ $result = mysqli_query($connect, $sql);
                             line-height: 1.6rem;
                             margin-top: 10px;"><?php echo $value['mo_ta'] ?></p>
                 <div class="product-price">
-                    <span style="color: #74140d;font-weight: bold;font-size: 18px;"><?php echo $value['gia'] ?> đ</span>
+                    <span style="color: #74140d;font-weight: bold;font-size: 18px;"><?php echo $value['gia'] ?> $</span>
                 </div>
             </div>
         </div>

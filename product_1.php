@@ -33,33 +33,33 @@
         <div class="row">
             <div class="col-sm-4">
                 <div id="sidebar" style="width: 100%;">
-                    <h2 style="font-family: 'Times New Roman', Times, serif;">DANH MỤC</h2>
+                    <h2 style="font-size: 30px;line-height: 55px;line-weight: 150">CATEGORY</h2>
                     <div>
                         <ul style="margin-top: 20px;">
-                            <li><a style="font-weight: bold;" href="">Sữa Tiệt Trùng</a>
+                            <li><a style="font-weight: bold;" href="">ALL</a>
                                 <ul style="margin-top: 15px;">
-                                    <li style="margin-top: 15px;"><a href="">Chăm Sóc Cơ Thể</a></li>
-                                    <li style="margin-top: 15px;"><a href="">Thông Tin sản phẩm</a></li>
-                                    <li style="margin-top: 15px;"><a href="">Sức Khỏe</a></li>
+                                    <li style="margin-top: 15px;"><a href="">ROAD</a></li>
+                                    <li style="margin-top: 15px;"><a href="">GRAVEL</a></li>
+                                    <li style="margin-top: 15px;"><a href="">E-BIKES</a></li>
                                 </ul>
                             </li>
                         </ul>
                     </div>
                     <div class="container" style="margin-top: 30px;">
                         <p style="margin-left: 43px;
-                                margin-bottom: 10px;">GIÁ</p>
+                                margin-bottom: 10px;">PRICE</p>
                         <form method="POST" action="./component/product_chamsocda.php" style="width: 70%;margin: auto;">
                             <div class="form-group" style="display:flex;justify-content: space-between;width: 100%;">
-                                <input type="text" class="form-control" placeholder="Nhập giá" name="start"
+                                <input type="text" class="form-control" placeholder="...$" name="start"
                                     style="width:80px;height: 40px;font-size: 13px;">
                                 <div style="font-size: 18px;font-weight: bold;">-</div>
-                                <input type="text" class="form-control" placeholder="Nhập giá" name="end"
+                                <input type="text" class="form-control" placeholder="...$" name="end"
                                     style="width:80px;height: 40px;font-size: 13px;">
                             </div>
-                            <button type="submit" class="btn btn-default" style="width: 100%;">áp dụng</button>
+                            <button type="submit" class="btn btn-default" style="width: 100%;">APPLY</button>
                         </form>
                     </div>
-                    <img style="margin-top: 20px;" src="./images/design_sua/img_product_banner_1.jpg" alt=""
+                    <img style="margin-top: 20px;" src="./images/design_sua/LEFT_BANNER1.jpg" alt=""
                         width="100%">
                 </div>
             </div>
