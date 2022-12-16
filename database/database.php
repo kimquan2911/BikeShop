@@ -1,7 +1,7 @@
 <?php
 $servername = 'localhost';
 $username = 'root';
-$password = '1';
+$password = 'admin';
 $dbname = "bikeshop";
 $conn = mysqli_connect($servername, $username, $password, "$dbname");
 if (!$conn) {
