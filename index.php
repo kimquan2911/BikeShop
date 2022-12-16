@@ -24,7 +24,7 @@
     <?php include('silder.php') ?>
     <div class="product-area section" style="margin-top: -30px;">
         <div class="container">
-            <p style="font-size: 25px;font-weight: bold;font-family: 'Times New Roman', Times, serif;color: #c05353;margin-bottom: 20px;">SẢN PHẨM MỚI</p>
+            <p style="font-size: 50px;line-height: 75px;line-weight: 450">NEW PRODUCTS</p>
             <div class="row" style="margin-top: -30px;">
                 <div class="col-12">
                     <div class="product-info">
@@ -45,10 +45,10 @@
     <div class="container">
         <img src="./images/sale.png" alt="" width="200px">
     </div>
-    <?php include('carouselsp.php') ?>
     <div class="container">
-        <p style="font-size: 25px;font-weight: bold;font-family: 'Times New Roman', Times, serif;color: #c05353;margin-bottom: 20px;">GỢI Ý SẢN PHẨM</p>
+            <p style="font-size: 50px;line-height: 75px;line-weight: 450">RECOMMENDED</p>
     </div>
+    <?php include('carouselsp.php') ?>
     <!-- Start Shop Services Area -->
     <section class="shop-services section home" style="margin-top: 30px;">
         <div class="container">
@@ -58,7 +58,7 @@
                     <div class="single-service">
                         <i class="ti-rocket"></i>
                         <h4>Free shiping</h4>
-                        <p>Đơn hàng trên 200k</p>
+                        <p>Orders over $100</p>
                     </div>
                     <!-- End Single Service -->
                 </div>
@@ -66,8 +66,8 @@
                     <!-- Start Single Service -->
                     <div class="single-service">
                         <i class="ti-reload"></i>
-                        <h4>Đổi trả miễn phí</h4>
-                        <p>Kiểm tra đổi trả</p>
+                        <h4>FREE RETURN</h4>
+                        <p>Within 30 days returns</p>
                     </div>
                     <!-- End Single Service -->
                 </div>
@@ -75,8 +75,8 @@
                     <!-- Start Single Service -->
                     <div class="single-service">
                         <i class="ti-lock"></i>
-                        <h4>Thanh toán chắc chắn</h4>
-                        <p>An toàn 100%</p>
+                        <h4>SUCURE PAYMENT</h4>
+                        <p>100% secure payment</p>
                     </div>
                     <!-- End Single Service -->
                 </div>
@@ -84,8 +84,8 @@
                     <!-- Start Single Service -->
                     <div class="single-service">
                         <i class="ti-tag"></i>
-                        <h4>Giá cả hợp lý</h4>
-                        <p>Giá rẻ</p>
+                        <h4>BEST PRICE</h4>
+                        <p>Guaranteed price</p>
                     </div>
                     <!-- End Single Service -->
                 </div>

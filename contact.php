@@ -9,22 +9,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Title Tag  -->
-    <title>SKINLELE.COM</title>
+    <title>BikeShop</title>
     <?php include('css-libary.php') ?>
 </head>
 
 <body class="js">
-
-    <!-- Preloader -->
-    <!-- <div class="preloader">
-        <div class="preloader-inner">
-            <div class="preloader-icon">
-                <span></span>
-                <span></span>
-            </div>
-        </div>
-    </div> -->
-    <!-- End Preloader -->
     <?php include 'component/header_2.php'; ?>
     <!--/ End Header -->
 
@@ -53,20 +42,20 @@
                     <div class="col-lg-8 col-12">
                         <div class="form-main">
                             <div class="title">
-                                <h4>Liên hệ</h4>
-                                <h3>Nhập các thông tin liên hệ</h3>
+                                <h4>Contact</h4>
+                                <h3>Enter contact information</h3>
                             </div>
                             <form class="form" method="post" action="./component/process_lienhe.php">
                                 <div class="row">
                                     <div class="col-lg-6 col-12">
                                         <div class="form-group">
-                                            <label>Họ và tên<span>*</span></label>
+                                            <label>Name<span>*</span></label>
                                             <input name="name" type="text" placeholder="">
                                         </div>
                                     </div>
                                     <div class="col-lg-6 col-12">
                                         <div class="form-group">
-                                            <label>Địa chỉ<span>*</span></label>
+                                            <label>Address<span>*</span></label>
                                             <input name="address" type="text" placeholder="">
                                         </div>
                                     </div>
@@ -78,19 +67,19 @@
                                     </div>
                                     <div class="col-lg-6 col-12">
                                         <div class="form-group">
-                                            <label>Số điện thoại<span>*</span></label>
+                                            <label>Phone number<span>*</span></label>
                                             <input name="phone_number" type="text" placeholder="">
                                         </div>
                                     </div>
                                     <div class="col-12">
                                         <div class="form-group message">
-                                            <label>Nội dung liện hệ<span>*</span></label>
+                                            <label>Message<span>*</span></label>
                                             <textarea name="message" placeholder=""></textarea>
                                         </div>
                                     </div>
                                     <div class="col-12">
                                         <div class="form-group button">
-                                            <button type="submit" class="btn ">Gửi</button>
+                                            <button type="submit" class="btn ">Send</button>
                                         </div>
                                     </div>
                                 </div>
@@ -130,9 +119,6 @@
     <!--/ End Contact -->
 
     <!-- Map Section -->
-    <div class="map-section">
-        <div id="myMap"></div>
-    </div>
     <!--/ End Map Section -->
 
     <!-- Start Shop Newsletter  -->

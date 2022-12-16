@@ -39,9 +39,9 @@ $result1 = mysqli_query($connect, $sql1);
                             line-height: 1.6rem;
                             margin-top: 10px;"><?php echo $value['mo_ta'] ?></p>
                 <div class="product-price">
-                    <span style="color: gray;text-decoration: line-through;"><?php echo $value['gia'] ?> đ</span>
+                    <span style="color: gray;text-decoration: line-through;"><?php echo $value['gia'] ?> $</span>
                 </div>
-                <p style="color:#820813;font-weight: bold;font-size: 18px;"><?php echo $value['khuyen_mai'] ?> đ</p>
+                <p style="color:#820813;font-weight: bold;font-size: 18px;"><?php echo $value['khuyen_mai'] ?> $</p>
             </div>
         </div>
     </div>

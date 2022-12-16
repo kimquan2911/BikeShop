@@ -80,7 +80,7 @@ session_start();
                                 <option selected="selected">All</option>
                             </select>
                             <form>
-                                <input name="search" placeholder="Nhập thông tin tìm kiếm..." type="search" id="search">
+                                <input name="search" placeholder="Search..." type="search" id="search">
                                 <!-- <button class="btnn"><i class="ti-search"></i></button> -->
                             </form>
                             <div id="output"></div>
@@ -132,7 +132,7 @@ session_start();
                                         </ul>
                                     <?php endforeach ?>
                                 <?php } ?>
-                                <a style="color: #ffff;" href="view_cart.php" class="btn animate">Đặt hàng</a>
+                                <a style="color: #ffff;" href="view_cart.php" class="btn animate">ORDER</a>
                             </div>
                             <!--/ End Shopping Item -->
                         </div>
@@ -160,10 +160,10 @@ session_start();
                                     <li><a style="color:gray ;" href="#">PRODUCTS<i class="ti-angle-down"></i></a>
                                         <ul class="dropdown">
                                             <li><a style="color:gray ;" href="product_1.php">BIKES</a></li>
-                                            <li><a style="color:gray ;" href="product_2.php">ACCESORIES</a></li>
+                                            <li><a style="color:gray ;" href="product_2.php">ACCESSORIES</a></li>
                                         </ul>
                                     </li>
-                                    <li><a style="color:gray ;" href="#">STORE<i class="ti-angle-down"></a>
+                                    <li><a style="color:gray ;" href="#">STORE<i class="ti-angle-down"></i></a>
                                         <ul class="dropdown">
                                             <li><a style="color:gray ;" href="view_cart.php">CART</a></li>
                                             <li><a style="color:gray ;" href="">CHECK OUT</a></li>
