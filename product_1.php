@@ -50,14 +50,17 @@
                                 margin-bottom: 10px;">GIÁ</p>
                         <form method="POST" action="./component/product_chamsocda.php" style="width: 70%;margin: auto;">
                             <div class="form-group" style="display:flex;justify-content: space-between;width: 100%;">
-                                <input type="text" class="form-control" placeholder="Nhập giá" name="start" style="width:80px;height: 40px;font-size: 13px;">
+                                <input type="text" class="form-control" placeholder="Nhập giá" name="start"
+                                    style="width:80px;height: 40px;font-size: 13px;">
                                 <div style="font-size: 18px;font-weight: bold;">-</div>
-                                <input type="text" class="form-control" placeholder="Nhập giá" name="end" style="width:80px;height: 40px;font-size: 13px;">
+                                <input type="text" class="form-control" placeholder="Nhập giá" name="end"
+                                    style="width:80px;height: 40px;font-size: 13px;">
                             </div>
                             <button type="submit" class="btn btn-default" style="width: 100%;">áp dụng</button>
                         </form>
                     </div>
-                    <img style="margin-top: 20px;" src="./images/design_sua/img_product_banner_1.jpg" alt="" width="100%">
+                    <img style="margin-top: 20px;" src="./images/design_sua/img_product_banner_1.jpg" alt=""
+                        width="100%">
                 </div>
             </div>
             <div class="col-sm-8">
@@ -85,11 +88,11 @@
                 <div class="container">
                     <ul class="pagination" style="display: flex;justify-content: center;margin-top: -50px">
                         <?php for ($i = 1; $i <= $so_trang; $i++) { ?>
-                            <li style="height: 20px;">
-                                <a href="?trang=<?php echo $i ?>">
-                                    <?php echo $i ?>
-                                </a>
-                            </li>
+                        <li style="height: 20px;">
+                            <a href="?trang=<?php echo $i ?>">
+                                <?php echo $i ?>
+                            </a>
+                        </li>
                         <?php } ?>
                     </ul>
                 </div>

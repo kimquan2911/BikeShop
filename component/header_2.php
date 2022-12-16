@@ -156,20 +156,20 @@ session_start();
                                                                                         align-items: center;
                                                                                         justify-content: center;
                                                                                         width: 100%;">
-                                    <li><a style="color:gray ;" href="index.php">Trang Chủ</a></li>
-                                    <li><a style="color:gray ;" href="#">Sản Phẩm<i class="ti-angle-down"></i></a>
+                                    <li><a style="color:gray ;" href="index.php">HOME</a></li>
+                                    <li><a style="color:gray ;" href="#">PRODUCTS<i class="ti-angle-down"></i></a>
                                         <ul class="dropdown">
-                                            <li><a style="color:gray ;" href="product_1.php">Chăm Sóc Da</a></li>
-                                            <li><a style="color:gray ;" href="product_2.php">Trang Điểm</a></li>
+                                            <li><a style="color:gray ;" href="product_1.php">BIKES</a></li>
+                                            <li><a style="color:gray ;" href="product_2.php">ACCESORIES</a></li>
                                         </ul>
                                     </li>
-                                    <li><a style="color:gray ;" href="#">Cửa Hàng<i class="ti-angle-down"></i><span class="new">New</span></a>
+                                    <li><a style="color:gray ;" href="#">STORE<i class="ti-angle-down"></a>
                                         <ul class="dropdown">
-                                            <li><a style="color:gray ;" href="view_cart.php">Giỏ Hàng</a></li>
-                                            <li><a style="color:gray ;" href="">Thanh Toán</a></li>
+                                            <li><a style="color:gray ;" href="view_cart.php">CART</a></li>
+                                            <li><a style="color:gray ;" href="">CHECK OUT</a></li>
                                         </ul>
                                     </li>
-                                    <li><a style="color:gray ;" href="contact.php">Liên Hệ</a></li>
+                                    <li><a style="color:gray ;" href="contact.php">CONTACT</a></li>
                                 </ul>
                             </div>
                         </div>
