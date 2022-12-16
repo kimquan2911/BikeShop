@@ -4,7 +4,7 @@
   padding: 40px 0;
 }
 .tcb-product-slider .carousel-control {
-  width: 5%;
+  width: 0%;
 }
 .tcb-product-item a {
   color: #147196;

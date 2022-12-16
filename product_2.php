@@ -20,7 +20,7 @@
         <div class="row">
             <div class="col-sm-4">
                 <div id="sidebar" style="width: 100%;">
-                <h2 style="font-size: 30px;line-height: 55px;line-weight: 150">COMPONENTS</h2>
+                <h2 style="font-size: 30px;line-height: 55px;line-weight: 150">ACCESSORIES</h2>
                     <div>
                         <ul style="margin-top: 20px;">
                             <li><a style="font-weight: bold;" href="">ALL</a>
