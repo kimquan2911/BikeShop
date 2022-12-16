@@ -2,7 +2,7 @@
 Template Name: Eshop
 Author Name: Naimur Rahman
 Author URI: http://www.wpthemesgrid.com/
-Description: SKINLELE.COM
+Description: BikeShop
 Version:1.0
 ========================================*/
 /* Tablet Screen */
@@ -507,7 +507,7 @@ Version:1.0
 	}
 
 	.slicknav_nav li:hover a {
-		color: #000;
+		color: #e28585;
 		background: transparent;
 	}
 
@@ -525,7 +525,7 @@ Version:1.0
 	}
 
 	.slicknav_nav li .dropdown li a:hover {
-		color: #000;
+		color: #e28585;
 		background: transparent;
 	}
 
@@ -546,13 +546,13 @@ Version:1.0
 	}
 
 	.slicknav_menu .slicknav_icon-bar {
-		background-color: #000;
+		background-color: #e28585;
 		box-shadow: none;
 		text-shadow: none;
 	}
 
 	.slicknav_nav .slicknav_arrow {
-		color: #000;
+		color: #e28585;
 	}
 
 	.slicknav_menu .slicknav_icon-bar {
@@ -1108,7 +1108,7 @@ Version:1.0
 		width: 50%;
 		height: 100%;
 		border-bottom: 1px solid #e6ebee;
-		background: #000;
+		background: #e28585;
 		color: #fff;
 		border: none;
 	}
@@ -1396,7 +1396,7 @@ Version:1.0
 	}
 
 	.slicknav_nav li:hover a {
-		color: #000;
+		color: #e28585;
 		background: transparent;
 	}
 
@@ -1414,7 +1414,7 @@ Version:1.0
 	}
 
 	.slicknav_nav li .dropdown li a:hover {
-		color: #000;
+		color: #e28585;
 		background: transparent;
 	}
 
@@ -1435,13 +1435,13 @@ Version:1.0
 	}
 
 	.slicknav_menu .slicknav_icon-bar {
-		background-color: #000;
+		background-color: #e28585;
 		box-shadow: none;
 		text-shadow: none;
 	}
 
 	.slicknav_nav .slicknav_arrow {
-		color: #000;
+		color: #e28585;
 	}
 
 	.slicknav_menu .slicknav_icon-bar {
@@ -1973,7 +1973,7 @@ Version:1.0
 	}
 
 	.contact-us .single-info i {
-		display: inline-block;
+		/* display: inline-block; */
 	}
 
 	.contact-us .single-info .title {

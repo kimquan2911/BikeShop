@@ -9,7 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Title Tag  -->
-    <title>SKINLELE.COM</title>
+    <title>Bikes</title>
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="images/favicon.png">
     <!-- Web Font -->
@@ -58,7 +58,7 @@
                             <div class="logo">
                                 <a href="index.php"><img src="./images/design_sua/logo.png" alt="#" style="max-width: 100px;border-radius: 50%;"></a>
                             </div>
-                            <p class="call">Got Question? Call us 24/7<span><a href="tel:123456789">+84 0979 840 906</a></span></p>
+                            <p class="call">Got Question? Call us 24/7<span><a style="color:white">+84 0979 840 906</a></span></p>
                         </div>
                         <!-- End Single Widget -->
                     </div>
@@ -67,11 +67,11 @@
                         <div class="single-footer links">
                             <h4>Information</h4>
                             <ul>
-                                <li><a href="#">About Us</a></li>
-                                <li><a href="#">Faq</a></li>
-                                <li><a href="#">Terms & Conditions</a></li>
-                                <li><a href="#">Contact Us</a></li>
-                                <li><a href="#">Help</a></li>
+                                <li><a class="cool-link">About Us</a></li>
+                                <li><a class="cool-link">Faq</a></li>
+                                <li><a class="cool-link">Terms & Conditions</a></li>
+                                <li><a class="cool-link">Contact Us</a></li>
+                                <li><a class="cool-link">Help</a></li>
                             </ul>
                         </div>
                         <!-- End Single Widget -->
@@ -81,11 +81,11 @@
                         <div class="single-footer links">
                             <h4>Customer Service</h4>
                             <ul>
-                                <li><a href="#">Payment Methods</a></li>
-                                <li><a href="#">Money-back</a></li>
-                                <li><a href="#">Returns</a></li>
-                                <li><a href="#">Shipping</a></li>
-                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a class="cool-link">Payment Methods</a></li>
+                                <li><a class="cool-link">Money-back</a></li>
+                                <li><a class="cool-link">Returns</a></li>
+                                <li><a class="cool-link">Shipping</a></li>
+                                <li><a class="cool-link">Privacy Policy</a></li>
                             </ul>
                         </div>
                         <!-- End Single Widget -->
@@ -105,10 +105,10 @@
                             </div>
                             <!-- End Single Widget -->
                             <ul>
-                                <li><a href="#"><i class="ti-facebook"></i></a></li>
-                                <li><a href="#"><i class="ti-twitter"></i></a></li>
-                                <li><a href="#"><i class="ti-flickr"></i></a></li>
-                                <li><a href="#"><i class="ti-instagram"></i></a></li>
+                                <li><a class="cool-link"><i class="ti-facebook"></i></a></li>
+                                <li><a class="cool-link"><i class="ti-twitter"></i></a></li>
+                                <li><a class="cool-link"><i class="ti-flickr"></i></a></li>
+                                <li><a class="cool-link"><i class="ti-instagram"></i></a></li>
                             </ul>
                         </div>
                         <!-- End Single Widget -->
@@ -152,5 +152,13 @@
     <!-- Active JS -->
     <script src="js/active.js"></script>
 </body>
-
+<style>
+    a {
+     color: black;
+     /* background-color:black;    */
+    }
+    a:hover{
+        
+    }
+</style>
 </html>

@@ -4,15 +4,15 @@ session_start();
 
 <style>
     .list-main li :hover {
-        /* font-weight: bold; */
+        /* font-weight: bold !; */
     }
 
     .header.shop .nav li:hover a {
         background-color: white !important ;
         /* color: white ; */
     }
-    a:hover{
-        background-color: transparent;
+    .row a:hover{
+        /* background-color: transparent; */
         color: black !important;
     }
     .cool-link {
@@ -74,22 +74,6 @@ session_start();
                         <a href="index.php"><img src="./images/logo_P.png" alt="logo" style="max-width: 120%;"></a>
                     </div>
                     <!--/ End Logo -->
-                    <!-- Search Form -->
-                    <div class="search-top">
-                        <div class="top-search"><a href="#0"><i class="ti-search"></i></a></div>
-                        <!-- Search Form -->
-                        <div class="search-top">
-                            <form class="search-form">
-                                <input type="text" placeholder="Nhập..." name="search" id="live_search">
-                                <!-- <div id="search_result">
-
-                                </div> -->
-                                <button value="search" type="submit"><i class="ti-search"></i></button>
-                            </form>
-                        </div>
-                        <!--/ End Search Form -->
-                    </div>
-                    <!--/ End Search Form -->
                     <div class="mobile-nav"></div>
                 </div>
                 <div class="col-lg-8 col-md-7 col-12" style="margin-top: 40px;">
@@ -100,9 +84,8 @@ session_start();
                             </select>
                             <form>
                                 <input name="search" placeholder="Search..." type="search" id="search">
-                                <!-- <button class="btnn"><i class="ti-search"></i></button> -->
                             </form>
-                            <div id="output"></div>
+                            <div id="output"></div> 
                         </div>
                     </div>
                 </div>
@@ -151,6 +134,17 @@ session_start();
                                         </ul>
                                     <?php endforeach ?>
                                 <?php } ?>
+                                <style>
+                                    .shopping-item a{
+                                        background: black !important;
+                                        color:white !important;
+                                    }
+                                    .shopping-item a:hover{
+                                        background: white !important;
+                                        color:black !important;
+                                        border:1px solid black !important;
+                                    }
+                                </style>
                                 <a style="color: #ffff;" href="view_cart.php" class="btn animate">ORDER</a>
                             </div>
                             <!--/ End Shopping Item -->
@@ -186,7 +180,7 @@ session_start();
                                     <li><a style="color:black ;" class="cool-link" href="#">STORE<i class="ti-angle-down"></i></a>
                                         <ul class="dropdown">
                                             <li><a style="color:black ;" class="cool-link" href="view_cart.php">CART</a></li>
-                                            <li><a style="color:black ;" class="cool-link" href="">CHECK OUT</a></li>
+                                            <li><a style="color:black ;" class="cool-link" href="checkout.php">CHECK OUT</a></li>
                                         </ul>
                                     </li>
                                     <li><a style="color:black ;" class="cool-link" href="contact.php">CONTACT</a></li>

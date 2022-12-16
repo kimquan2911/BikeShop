@@ -34,7 +34,7 @@ if (count($idList) > 0) {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Title Tag  -->
-    <title>SKINLELE.COM</title>
+    <title>BikeShop</title>
     <?php include('css-libary.php') ?>
 </head>
 
@@ -74,14 +74,14 @@ if (count($idList) > 0) {
                 <div class="row">
                     <div class="col-lg-8 col-12">
                         <div class="checkout-form">
-                            <h2>Thanh toán tại đây</h2>
-                            <p>Vui lòng đăng ký để thanh toán nhanh hơn</p>
+                            <h2>Pay here</h2>
+                            <p>Please register for faster checkout</p>
                             <!-- Form -->
                             <div class="row">
                                 <div class="col-md-6">
-                                    <h3>thông tin vận chuyển</h3>
+                                    <h3>Shipping information</h3>
                                     <div class="form-group">
-                                        <label for="usr">Tên:</label>
+                                        <label for="usr">Name:</label>
                                         <input required="true" type="text" class="form-control" id="usr" name="fullname">
                                     </div>
                                     <div class="form-group">
@@ -89,15 +89,15 @@ if (count($idList) > 0) {
                                         <input required="true" type="email" class="form-control" id="email" name="email">
                                     </div>
                                     <div class="form-group">
-                                        <label for="phone_number">Số điện thoại:</label>
+                                        <label for="phone_number">Phone:</label>
                                         <input type="text" class="form-control" id="phone_number" name="phone_number">
                                     </div>
                                     <div class="form-group">
-                                        <label for="address">Địa chỉ nhà:</label>
+                                        <label for="address">Address</label>
                                         <input type="text" class="form-control" id="address" name="address">
                                     </div>
                                     <div class="form-group">
-                                        <label for="note">Ghi chú:</label>
+                                        <label for="note">Note:</label>
                                         <textarea class="form-control" rows="3" name="note" id="note"></textarea>
                                     </div>
                                 </div>
@@ -127,38 +127,17 @@ if (count($idList) > 0) {
                                 ?>
                                 <div class="content">
                                     <ul>
-                                        <li>Tổng Tiền<span>$ <?= $total ?></span></li>
-                                        <li>(+) Vận Chuyển<span>$10</span></li>
-                                        <li class="last">Tổng Cộng<span>$<?= $total + 10000 ?></span></li>
+                                        <li>Total<span>$ <?= $total ?></span></li>
+                                        <li>(+)Transport<span>$10</span></li>
+                                        <li class="last">Total<span>$<?= $total + 10000 ?></span></li>
                                     </ul>
                                 </div>
                             </div>
-                            <!--/ End Order Widget -->
-                            <!-- Order Widget -->
-                            <div class="single-widget">
-                                <h2>Payments</h2>
-                                <div class="content">
-                                    <div class="checkbox">
-                                        <label class="checkbox-inline" for="1"><input name="updates" id="1" type="checkbox"> Kiểm tra thanh toán</label>
-                                        <label class="checkbox-inline" for="2"><input name="news" id="2" type="checkbox"> Thanh toán khi giao hàng</label>
-                                        <label class="checkbox-inline" for="3"><input name="news" id="3" type="checkbox"> PayPal</label>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--/ End Order Widget -->
-                            <!-- Payment Method Widget -->
-                            <div class="single-widget payement">
-                                <div class="content">
-                                    <img src="images/payment-method.png" alt="#">
-                                </div>
-                            </div>
-                            <!--/ End Payment Method Widget -->
-                            <!-- Button Widget -->
                             <div class="single-widget get-button">
                                 <div class="content">
                                     <div class="button">
                                         <a href="checkout.php">
-                                            <button class="btn btn-success" style="width: 100%;font-size: 32px;">HOÀN THÀNH</button>
+                                            <button class="btn btn-success" style="width: 100%;font-size: 32px;">COMPLETE</button>
                                         </a>
                                     </div>
                                 </div>
@@ -173,15 +152,15 @@ if (count($idList) > 0) {
     <!--/ End Checkout -->
 
     <!-- Start Shop Services Area  -->
-    <section class="shop-services section home">
+    <section class="shop-services section home" style="margin-top: 30px;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-12">
                     <!-- Start Single Service -->
                     <div class="single-service">
                         <i class="ti-rocket"></i>
-                        <h4>MIỄN PHÍ VẬN CHUYỂN</h4>
-                        <p>Đơn hàng trên 300000</p>
+                        <h4>Free shiping</h4>
+                        <p>Orders over $100</p>
                     </div>
                     <!-- End Single Service -->
                 </div>
@@ -189,8 +168,8 @@ if (count($idList) > 0) {
                     <!-- Start Single Service -->
                     <div class="single-service">
                         <i class="ti-reload"></i>
-                        <h4>TRẢ LẠI MIỄN PHÍ</h4>
-                        <p>Trong vòng 30 ngày trở lại</p>
+                        <h4>FREE RETURN</h4>
+                        <p>Within 30 days returns</p>
                     </div>
                     <!-- End Single Service -->
                 </div>
@@ -198,8 +177,8 @@ if (count($idList) > 0) {
                     <!-- Start Single Service -->
                     <div class="single-service">
                         <i class="ti-lock"></i>
-                        <h4>THANH TOÁN CHẮC CHẮN</h4>
-                        <p>Thanh toán an toàn 100%</p>
+                        <h4>SUCURE PAYMENT</h4>
+                        <p>100% secure payment</p>
                     </div>
                     <!-- End Single Service -->
                 </div>
@@ -207,13 +186,10 @@ if (count($idList) > 0) {
                     <!-- Start Single Service -->
                     <div class="single-service">
                         <i class="ti-tag"></i>
-                        <h4>SẢN PHẨM TỐT NHẤT</h4>
-                        <p>đảm bảo giá</p>
+                        <h4>BEST PRICE</h4>
+                        <p>Guaranteed price</p>
                     </div>
-                    <!-- End Single Service -->
                 </div>
-            </div>
-        </div>
     </section>
     <!-- End Shop Services -->
 
@@ -224,12 +200,23 @@ if (count($idList) > 0) {
                 <div class="row">
                     <div class="col-lg-8 offset-lg-2 col-12">
                         <!-- Start Newsletter Inner -->
+                        <style>
+                            .sub{
+                                color: black !important;
+                                background-color: white !important;
+                                border: 1px solid ;
+                            }
+                            .sub:hover{
+                                background-color:black !important;
+                                color:white !important;
+                            }
+                        </style>
                         <div class="inner">
-                            <h4>BẢN TIN</h4>
-                            <p> Đăng ký nhận bản tin của chúng tôi và nhận <span>10%</span> cho lần mua hàng đầu tiên của bạn</p>
+                            <h4>Newsletter</h4>
+                            <p> Subscribe to our newsletter and get 10% off your first purchase</p>
                             <form action="mail/mail.php" method="get" target="_blank" class="newsletter-inner">
-                                <input name="EMAIL" placeholder="Địa chit email của bạn" required="" type="email">
-                                <button class="btn">Subscribe</button>
+                                <input name="EMAIL" placeholder="Your email address" required="" type="email">
+                                <button class="btn sub">Subscribe</button>
                             </form>
                         </div>
                         <!-- End Newsletter Inner -->

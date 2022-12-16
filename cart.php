@@ -33,7 +33,7 @@ if (count($idList) > 0) {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Title Tag  -->
-    <title>SKINLELE.COM</title>
+    <title>BikeShop</title>
     <?php include('css-libary.php') ?>
 </head>
 
@@ -128,7 +128,7 @@ if (count($idList) > 0) {
                                     <div class="coupon">
                                         <form action="#" target="_blank">
                                             <input name="Coupon" placeholder="Nhập phiếu giảm giá của bạn">
-                                            <button class="btn">Áp Dụng</button>
+                                            <button class="btn">Z</button>
                                         </form>
                                     </div>
                                     <div class="checkbox">
@@ -178,15 +178,15 @@ if (count($idList) > 0) {
     <!--/ End Shopping Cart -->
 
     <!-- Start Shop Services Area  -->
-    <section class="shop-services section">
+    <section class="shop-services section home" style="margin-top: 30px;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-12">
                     <!-- Start Single Service -->
                     <div class="single-service">
                         <i class="ti-rocket"></i>
-                        <h4>MIỄN PHÍ VẬN CHUYỂN</h4>
-                        <p>Đơn hàng trên 300000</p>
+                        <h4>Free shiping</h4>
+                        <p>Orders over $100</p>
                     </div>
                     <!-- End Single Service -->
                 </div>
@@ -194,8 +194,8 @@ if (count($idList) > 0) {
                     <!-- Start Single Service -->
                     <div class="single-service">
                         <i class="ti-reload"></i>
-                        <h4>TRẢ LẠI MIỄN PHÍ</h4>
-                        <p>Trong vòng 30 ngày trở lại</p>
+                        <h4>FREE RETURN</h4>
+                        <p>Within 30 days returns</p>
                     </div>
                     <!-- End Single Service -->
                 </div>
@@ -203,8 +203,8 @@ if (count($idList) > 0) {
                     <!-- Start Single Service -->
                     <div class="single-service">
                         <i class="ti-lock"></i>
-                        <h4>THANH TOÁN CHẮC CHẮN</h4>
-                        <p>Thanh toán an toàn 100%</p>
+                        <h4>SUCURE PAYMENT</h4>
+                        <p>100% secure payment</p>
                     </div>
                     <!-- End Single Service -->
                 </div>
@@ -212,13 +212,10 @@ if (count($idList) > 0) {
                     <!-- Start Single Service -->
                     <div class="single-service">
                         <i class="ti-tag"></i>
-                        <h4>SẢN PHẨM TỐT NHẤT</h4>
-                        <p>đảm bảo giá</p>
+                        <h4>BEST PRICE</h4>
+                        <p>Guaranteed price</p>
                     </div>
-                    <!-- End Single Service -->
                 </div>
-            </div>
-        </div>
     </section>
     <!-- End Shop Newsletter -->
 
@@ -229,12 +226,23 @@ if (count($idList) > 0) {
                 <div class="row">
                     <div class="col-lg-8 offset-lg-2 col-12">
                         <!-- Start Newsletter Inner -->
+                        <style>
+                            .sub{
+                                color: black !important;
+                                background-color: white !important;
+                                border: 1px solid ;
+                            }
+                            .sub:hover{
+                                background-color:black !important;
+                                color:white !important;
+                            }
+                        </style>
                         <div class="inner">
-                            <h4>BẢN TIN</h4>
-                            <p> Đăng ký nhận bản tin của chúng tôi và nhận <span>10%</span> cho lần mua hàng đầu tiên của bạn</p>
+                            <h4>Newsletter</h4>
+                            <p> Subscribe to our newsletter and get 10% off your first purchase</p>
                             <form action="mail/mail.php" method="get" target="_blank" class="newsletter-inner">
-                                <input name="EMAIL" placeholder="Địa chit email của bạn" required="" type="email">
-                                <button class="btn">Subscribe</button>
+                                <input name="EMAIL" placeholder="Your email address" required="" type="email">
+                                <button class="btn sub">Subscribe</button>
                             </form>
                         </div>
                         <!-- End Newsletter Inner -->

@@ -2,7 +2,7 @@
 Template Name: Eshop
 Author Name: Naimur Rahman
 Author URI: http://www.wpthemesgrid.com/
-Description: SKINLELE.COM
+Description: BikeShop
 Version:1.0
 ========================================*/
 /*=======================================

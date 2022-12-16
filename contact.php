@@ -42,7 +42,7 @@
                     <div class="col-lg-8 col-12">
                         <div class="form-main">
                             <div class="title">
-                                <h4>Contact</h4>
+                                <h4 style="color:black;font-size:40px">Contact</h4>
                                 <h3>Enter contact information</h3>
                             </div>
                             <form class="form" method="post" action="./component/process_lienhe.php">
@@ -89,23 +89,23 @@
                     <div class="col-lg-4 col-12">
                         <div class="single-head">
                             <div class="single-info">
-                                <i class="fa fa-phone"></i>
+                                <i class="fa fa-phone" style="color:#fff;background:#000"></i>
                                 <h4 class="title">Hotline:</h4>
                                 <ul>
                                     <li>0986538387</li>
                                 </ul>
                             </div>
                             <div class="single-info">
-                                <i class="fa fa-envelope-open"></i>
+                                <i class="fa-regular fa-envelope" style="color:#fff;background:#000"></i>
                                 <h4 class="title">Email:</h4>
                                 <ul>
                                     <li><a href="mailto:info@yourwebsite.com">info@yourwebsite.com</a></li>
                                     <li><a href="mailto:info@yourwebsite.com">support@yourwebsite.com</a></li>
                                 </ul>
                             </div>
-                            <div class="single-info">
-                                <i class="fa fa-location-arrow"></i>
-                                <h4 class="title">Địa Chỉ</h4>
+                            <div class="single-info" >
+                                <i class="fa fa-location-arrow" style="color:#fff;background:#000"></i>
+                                <h4 class="title">Address</h4>
                                 <ul>
                                     <li>Đường vắng - 126A - 17A - Cát Quế - Hoài Đức - Hà Nội</li>
                                 </ul>
@@ -119,6 +119,7 @@
     <!--/ End Contact -->
 
     <!-- Map Section -->
+
     <!--/ End Map Section -->
 
     <!-- Start Shop Newsletter  -->
@@ -128,12 +129,23 @@
                 <div class="row">
                     <div class="col-lg-8 offset-lg-2 col-12">
                         <!-- Start Newsletter Inner -->
+                        <style>
+                            .sub{
+                                color: black !important;
+                                background-color: white !important;
+                                border: 1px solid ;
+                            }
+                            .sub:hover{
+                                background-color:black !important;
+                                color:white !important;
+                            }
+                        </style>
                         <div class="inner">
                             <h4>Newsletter</h4>
-                            <p> Subscribe to our newsletter and get <span>10%</span> off your first purchase</p>
+                            <p> Subscribe to our newsletter and get 10% off your first purchase</p>
                             <form action="mail/mail.php" method="get" target="_blank" class="newsletter-inner">
                                 <input name="EMAIL" placeholder="Your email address" required="" type="email">
-                                <button class="btn">Subscribe</button>
+                                <button class="btn sub">Subscribe</button>
                             </form>
                         </div>
                         <!-- End Newsletter Inner -->
@@ -149,5 +161,4 @@
     <!-- /End Footer Area -->
     <?php include('jquery.php') ?>
 </body>
-
 </html>

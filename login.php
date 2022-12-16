@@ -26,7 +26,7 @@ if (isset($_SESSION['id'])) {
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <?php include('css-libary.php') ?>
-    <title>SKINLELE.COM</title>
+    <title>BikeShop</title>
 </head>
 
 <body>
@@ -84,7 +84,7 @@ if (isset($_SESSION['id'])) {
                         <a href="register.php" style="text-decoration: none;
                                         width: 40%;
                                         height: 40px;
-                                        padding: 14px;
+                                        padding: 10px;
                                         background-color: transparent;
                                         color: dimgrey;
                                         border: 1px solid dimgrey;
@@ -93,9 +93,7 @@ if (isset($_SESSION['id'])) {
                                         font-weight: 600;
                                         display: block;
                                         text-align: center;
-                                        transition: all .4s; 
-                                        font-family: 'Poppins', sans-serif;
-                                        font-weight: 600;
+                                        transition: all .4s;
                                         margin: 28px auto;">CREATE ACCOUNT</a>
                     </div>
                 </form>

@@ -31,7 +31,7 @@ include('../../admin/root/db/config.php')
         <div class="sidebar pe-4 pb-3">
             <nav class="navbar bg-light navbar-light">
                 <a href="index.php" class="navbar-brand mx-4 mb-3">
-                    <h3 class="text-primary">SKINADMIN</h3>
+                    <h3 class="text-primary">BIKESHOP</h3>
                 </a>
                 <div class="d-flex align-items-center ms-4 mb-4">
                     <div class="position-relative">
