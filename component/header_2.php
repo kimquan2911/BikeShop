@@ -4,13 +4,34 @@ session_start();
 
 <style>
     .list-main li :hover {
-        font-weight: bold;
-
+        /* font-weight: bold; */
     }
 
     .header.shop .nav li:hover a {
-        background: black;
-        border-radius: 30px;
+        background-color: white !important ;
+        /* color: white ; */
+    }
+    a:hover{
+        background-color: transparent;
+        color: black !important;
+    }
+    .cool-link {
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+    }
+
+    .cool-link::after {
+        content: '';
+        display: block;
+        width: 0;
+        height: 1px;
+        background: #000;
+        transition: width .4s;
+    }
+
+    .cool-link:hover::after {
+        width: 100%;
     }
 </style>
 <!-- Header -->
@@ -24,7 +45,7 @@ session_start();
                     <div class="top-left">
                         <ul class="list-main">
                             <li style="color:#ffff ;"><i style="color:#ffff ;" class="ti-headphone-alt"></i> +84 0979 840 906</li>
-                            <li style="color:#ffff ;"><i style="color:#ffff ;" class="ti-email"></i> support@shopnxd.com</li>
+                            <li style="color:#ffff ;"><i style="color:#ffff ;" class="ti-email"></i> support@bikeshop.com</li>
                         </ul>
                     </div>
                     <!--/ End Top Left -->
@@ -33,8 +54,6 @@ session_start();
                     <div class="right-content">
                         <ul class="list-main">
                             <?php if (empty($_SESSION['id'])) { ?>
-                                <!-- <li><i style="color: #ffff;font-size: 14px;" class="fa-solid fa-user"></i><a style="color:#ffff ;" href="login.php">Đăng Nhập</a></li>
-                                <li><i style="color: #ffff;font-size: 14px;" class="fa-solid fa-right-to-bracket"></i><a style="color:#ffff ;" href="register.php">Đăng Ký</a></li> -->
                             <?php } else { ?>
                                 <li><i style="color: #ffff;font-size: 14px;" class="fa-solid fa-user"></i><a style="color:#ffff ;" href=""><?php echo $_SESSION['name'] ?></a></li>
                                 <li><i style="color: #ffff;font-size: 14px;" class="fa-solid fa-right-from-bracket"></i><a style="color:#ffff ;" href="logout.php">Đăng Xuất</a></li>
@@ -152,24 +171,25 @@ session_start();
                     <nav class="navbar navbar-expand-lg">
                         <div class="navbar-collapse">
                             <div class="nav-inner" style="width: 100%;">
-                                <ul class="nav main-menu menu navbar-nav" style="display: flex;
-                                                                                        align-items: center;
-                                                                                        justify-content: center;
-                                                                                        width: 100%;">
-                                    <li><a style="color:gray ;" href="index.php">HOME</a></li>
-                                    <li><a style="color:gray ;" href="#">PRODUCTS<i class="ti-angle-down"></i></a>
+                                <ul class="nav main-menu menu navbar-nav" 
+                                        style=" display: flex;
+                                                align-items: center;
+                                                justify-content: center;
+                                                width: 100%;">
+                                    <li><a style="color:black" class="cool-link" href="index.php">HOME</a></li>
+                                    <li><a style="color:black ;" class="cool-link" href="#">PRODUCTS<i class="ti-angle-down"></i></a>
                                         <ul class="dropdown">
-                                            <li><a style="color:gray ;" href="product_1.php">BIKES</a></li>
-                                            <li><a style="color:gray ;" href="product_2.php">ACCESSORIES</a></li>
+                                            <li><a style="color:black ;" class="cool-link" href="product_1.php">BIKES</a></li>
+                                            <li><a style="color:black ;" class="cool-link" href="product_2.php">ACCESSORIES</a></li>
                                         </ul>
                                     </li>
-                                    <li><a style="color:gray ;" href="#">STORE<i class="ti-angle-down"></i></a>
+                                    <li><a style="color:black ;" class="cool-link" href="#">STORE<i class="ti-angle-down"></i></a>
                                         <ul class="dropdown">
-                                            <li><a style="color:gray ;" href="view_cart.php">CART</a></li>
-                                            <li><a style="color:gray ;" href="">CHECK OUT</a></li>
+                                            <li><a style="color:black ;" class="cool-link" href="view_cart.php">CART</a></li>
+                                            <li><a style="color:black ;" class="cool-link" href="">CHECK OUT</a></li>
                                         </ul>
                                     </li>
-                                    <li><a style="color:gray ;" href="contact.php">CONTACT</a></li>
+                                    <li><a style="color:black ;" class="cool-link" href="contact.php">CONTACT</a></li>
                                 </ul>
                             </div>
                         </div>

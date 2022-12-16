@@ -41,8 +41,8 @@
       <div style="border-radius:200px; height:200px; width:200px; background: #F8FAF5; margin:0 auto;">
         <i class="checkmark">✓</i>
       </div>
-        <h1>Đặt hàng thành công</h1> 
-        <a style="width: 50%;" href="index.php"> <button style="width: 20%;height: 40px;" type="button" class="btn btn-primary" >Quay lại</button></a>
+        <h1>Order Success</h1> 
+        <a style="width: 50%;" href="index.php"> <button style="width: 20%;height: 40px;" type="button" class="btn btn-primary" >Back</button></a>
       </div>
     </body>
 </html>
