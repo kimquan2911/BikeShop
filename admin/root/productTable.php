@@ -32,7 +32,7 @@ include('../../admin/root/db/config.php')
         <div class="sidebar pe-4 pb-3">
             <nav class="navbar bg-light navbar-light">
                 <a href="index.php" class="navbar-brand mx-4 mb-3">
-                    <h3 class="text-primarys" style="color: #e28585;">BIKEADMIN</h3>
+                    <h3 class="text-primarys" style="color: #000;">BIKEADMIN</h3>
                 </a>
                 <div class="d-flex align-items-center ms-4 mb-4">
                     <div class="position-relative">
@@ -65,7 +65,7 @@ include('../../admin/root/db/config.php')
                     <h2 class="text-primary mb-0"><i class="fa fa-hashtag"></i></h2>
                 </a>
                 <a href="#" class="sidebar-toggler flex-shrink-0">
-                    <i class="fa fa-bars" style="color: #e28585;"></i>
+                    <i class="fa fa-bars" style="color: #000;"></i>
                 </a>
                 <form class="d-none d-md-flex ms-4" action="./component/crudProduct/searchProduct.php" method="GET">
                     <input class="form-control border-0" name="search" type="search" required value="<?php if (isset($_GET['search'])) {
@@ -153,7 +153,7 @@ include('../../admin/root/db/config.php')
                 <div class="row g-4">
                     <div class="col-12">
                         <div class="bg-light rounded h-100 p-4">
-                            <h6 class="mb-4" style="color: #e28585;">Product Table</h6>
+                            <h6 class="mb-4" style="color: #000;">Product Table</h6>
                             <?php include('product/view_product.php') ?>
                         </div>
                     </div>

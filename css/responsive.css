@@ -507,7 +507,7 @@ Version:1.0
 	}
 
 	.slicknav_nav li:hover a {
-		color: #e28585;
+		color: #000;
 		background: transparent;
 	}
 
@@ -525,7 +525,7 @@ Version:1.0
 	}
 
 	.slicknav_nav li .dropdown li a:hover {
-		color: #e28585;
+		color: #000;
 		background: transparent;
 	}
 
@@ -546,13 +546,13 @@ Version:1.0
 	}
 
 	.slicknav_menu .slicknav_icon-bar {
-		background-color: #e28585;
+		background-color: #000;
 		box-shadow: none;
 		text-shadow: none;
 	}
 
 	.slicknav_nav .slicknav_arrow {
-		color: #e28585;
+		color: #000;
 	}
 
 	.slicknav_menu .slicknav_icon-bar {
@@ -1108,7 +1108,7 @@ Version:1.0
 		width: 50%;
 		height: 100%;
 		border-bottom: 1px solid #e6ebee;
-		background: #e28585;
+		background: #000;
 		color: #fff;
 		border: none;
 	}
@@ -1414,7 +1414,7 @@ Version:1.0
 	}
 
 	.slicknav_nav li .dropdown li a:hover {
-		color: #e28585;
+		color: #000;
 		background: transparent;
 	}
 
@@ -1435,13 +1435,13 @@ Version:1.0
 	}
 
 	.slicknav_menu .slicknav_icon-bar {
-		background-color: #e28585;
+		background-color: #000;
 		box-shadow: none;
 		text-shadow: none;
 	}
 
 	.slicknav_nav .slicknav_arrow {
-		color: #e28585;
+		color: #000;
 	}
 
 	.slicknav_menu .slicknav_icon-bar {
@@ -1823,7 +1823,7 @@ Version:1.0
 
 	.shop .nice-select {
 		width: 100%;
-		display: ;
+		/* display: ; */
 		margin-top: 4px;
 	}
 
@@ -1844,7 +1844,7 @@ Version:1.0
 		width: 100%;
 		display: block;
 		display: inline-block;
-		display: ;
+		/* display: ; */
 	}
 
 	.shop .view-mode li a {
