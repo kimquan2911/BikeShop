@@ -86,7 +86,7 @@
                 </table>
             </div>
             <h1 style="margin-top: 20px;font-family: 'Times New Roman', Times, serif;display: flex;">
-                <p style="color: #820813;">Total: <?php echo $total ?>$</p>
+                <p style="color: #333;">Total: <?php echo $total ?>$</p>
             </h1>
             <br>
         </div>
