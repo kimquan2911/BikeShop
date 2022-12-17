@@ -58,48 +58,43 @@ if (isset($_SESSION['id'])) {
                             </div>
                             <div style="display: flex; margin-top: 10px;">
                                 <input name="remember" type="checkbox">
-                                <label style="  line-height: 20px;
+                                <label style="  line-height: 18px;
                                                 font-size: 16px;
-                                                margin-top: 5px;
+                                                margin-top: 8px;
                                                 margin-left: 5px;
                                                 font-weight: 300;
                                                 color: dimgray;">Remember</label> 
                             </div>
                         </div>         
-                        <button style=" text-decoration: none;
-                                        width: 40%;
-                                        height: 40px;
-                                        padding: 10px;
-                                        background-color: transparent;
-                                        color: dimgrey;
-                                        border: 1px solid dimgrey;
-                                        top: 65px;
-                                        font-size: 13px;
-                                        font-weight: 600;
-                                        display: block;
-                                        text-align: center;
-                                        transition: all .4s;
-                                        margin: 28px auto;">LOGIN</button>
+                        <button class="loginbtn">LOGIN</button>
                         <hr style="width: 50%; margin: 0 auto; height: 1.5px;" >
-                        <a href="register.php" style="text-decoration: none;
-                                        width: 40%;
-                                        height: 40px;
-                                        padding: 10px;
-                                        background-color: transparent;
-                                        color: dimgrey;
-                                        border: 1px solid dimgrey;
-                                        top: 65px;
-                                        font-size: 13px;
-                                        font-weight: 600;
-                                        display: block;
-                                        text-align: center;
-                                        transition: all .4s;
-                                        margin: 28px auto;">CREATE ACCOUNT</a>
+                        <a href="register.php" class="loginbtn">CREATE ACCOUNT</a>
                     </div>
                 </form>
         </div>
     </div>
-
+    <style>
+        .loginbtn{
+            text-decoration: none;
+            width: 40%;
+            height: 40px;
+            padding: 8px;
+            background-color: transparent;
+            color: dimgrey;
+            border: 1px solid dimgrey;
+            top: 65px;
+            font-size: 13px;
+            font-weight: 600;
+            display: block;
+            text-align: center;
+            transition: all .4s;
+            margin: 28px auto;
+        }
+        .loginbtn:hover{
+            background: black;
+            color:white;
+        }
+    </style>
     <?php
     include 'component/footer.php'
     ?>
