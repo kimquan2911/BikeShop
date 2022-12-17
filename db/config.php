@@ -1,7 +1,7 @@
 <?php
 define('HOST', 'localhost');
 define('USERNAME', 'root');
-define('PASSWORD', '1');
+define('PASSWORD', 'admin');
 define('DATABASE', 'bikeshop');
 
 /* Attempt to connect to MySQL database */

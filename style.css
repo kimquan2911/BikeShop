@@ -1229,24 +1229,6 @@ Version:1.0
 	position: relative;
 }
 
-.header.shop .right-bar .sinlge-bar .single-icon:hover {
-	color: #e28585;
-}
-
-.header.shop .right-bar .sinlge-bar .single-icon .total-count {
-	position: absolute;
-	top: -7px;
-	right: -8px;
-	background: #e28585;
-	width: 18px;
-	height: 18px;
-	line-height: 18px;
-	text-align: center;
-	color: #fff;
-	border-radius: 100%;
-	font-size: 11px;
-}
-
 .header.shop .right-bar .sinlge-bar {
 	display: inline-block;
 	margin-right: 25px;
