@@ -54,7 +54,7 @@ body {
   background-color: $body-bg; // 2
   -webkit-text-size-adjust: 100%; // 3
   -webkit-tap-highlight-color: rgba($black, 0); // 4
-  color: #e28585;
+  color: #000 !important;
 }
 
 
@@ -251,11 +251,11 @@ sup {
 // Links
 
 a {
-  color: #e28585;
+  color: #000 !important;
   text-decoration: $link-decoration;
 
   &:hover {
-    color: $link-hover-color;
+    color: #191C24;
     text-decoration: $link-hover-decoration;
   }
 }

@@ -46,7 +46,7 @@
         <div class="sidebar pe-4 pb-3">
             <nav class="navbar bg-light navbar-light">
                 <a href="../../index.php" class="navbar-brand mx-4 mb-3">
-                    <h3 class="text-primarys" style="color: #e28585;">BIKESHOP</h3>
+                    <h3 class="text-primarys" style="color: #000 !important;">BIKESHOP</h3>
                 </a>
                 <div class="d-flex align-items-center ms-4 mb-4">
                     <div class="position-relative">
@@ -63,7 +63,7 @@
                     <a href="../../tableOrders.php" class="nav-item nav-link"><i class="fas fa-shopping-basket"></i>Orders</a>
                     <a href="../../tableOrderDetail.php" class="nav-item nav-link"><i class="fas fa-user-check"></i>Orders Detail</a>
                     <a href="../../tableSign.php" class="nav-item nav-link"><i class="fas fa-user-alt"></i>Account</a>
-                    <a href="../../tableSign.php" class="nav-item nav-link"><i class="fas fa-blog"></i>View Website</a>
+                    <a href="../../../../index.php" class="nav-item nav-link"><i class="fas fa-blog"></i>View Website</a>
                 </div>
             </nav>
         </div>

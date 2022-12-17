@@ -55,9 +55,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $input_danh_muc = trim($_POST["danh_muc"]);
     if (empty($input_danh_muc)) {
         $danh_muc_err = "Please enter the price amount.";
-    } elseif (!ctype_digit($input_danh_muc)) {
-        $danh_muc_err = "Please enter a positive integer value.";
-    } else {
+    }  else {
         $danh_muc = $input_danh_muc;
     }
 

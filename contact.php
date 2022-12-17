@@ -50,31 +50,31 @@
                                     <div class="col-lg-6 col-12">
                                         <div class="form-group">
                                             <label>Name<span>*</span></label>
-                                            <input name="name" type="text" placeholder="">
+                                            <input name="name" type="text" placeholder="" data-rule-required="true" data-rule-minlength="3" data-msg-required="Please enter name.">
                                         </div>
                                     </div>
                                     <div class="col-lg-6 col-12">
                                         <div class="form-group">
                                             <label>Address<span>*</span></label>
-                                            <input name="address" type="text" placeholder="">
+                                            <input name="address" type="text" placeholder="" data-rule-required="true" data-rule-minlength="3" data-msg-required="Please enter address">
                                         </div>
                                     </div>
                                     <div class="col-lg-6 col-12">
                                         <div class="form-group">
                                             <label>Email<span>*</span></label>
-                                            <input name="email" type="email" placeholder="">
+                                            <input name="email" type="email" placeholder="" data-rule-required="true" data-rule-minlength="3" data-msg-required="Please enter email.">
                                         </div>
                                     </div>
                                     <div class="col-lg-6 col-12">
                                         <div class="form-group">
                                             <label>Phone number<span>*</span></label>
-                                            <input name="phone_number" type="text" placeholder="">
+                                            <input name="phone_number" type="text" placeholder="" data-rule-required="true" data-rule-minlength="3" data-msg-required="Please enter phone number.">
                                         </div>
                                     </div>
                                     <div class="col-12">
                                         <div class="form-group message">
                                             <label>Message<span>*</span></label>
-                                            <textarea name="message" placeholder=""></textarea>
+                                            <textarea name="message" placeholder="" data-rule-required="true" data-rule-minlength="3" data-msg-required="Please enter message."></textarea>
                                         </div>
                                     </div>
                                     <div class="col-12">
@@ -89,14 +89,14 @@
                     <div class="col-lg-4 col-12">
                         <div class="single-head">
                             <div class="single-info">
-                                <i class="fa fa-phone" style="color:#fff;background:#000"></i>
+                                <i class="fa fa-phone" style="color:#fff;background:#000 !important"></i>
                                 <h4 class="title">Hotline:</h4>
                                 <ul>
                                     <li>0986538387</li>
                                 </ul>
                             </div>
                             <div class="single-info">
-                                <i class="fa-regular fa-envelope" style="color:#fff;background:#000"></i>
+                                <i class="fa-regular fa-envelope" style="color:#fff;background:#000 !important"></i>
                                 <h4 class="title">Email:</h4>
                                 <ul>
                                     <li><a href="mailto:kim@pinarello.com">kimquan@pinarello.com</a></li>
@@ -104,7 +104,7 @@
                                 </ul>
                             </div>
                             <div class="single-info" >
-                                <i class="fa fa-location-arrow" style="color:#fff;background:#000"></i>
+                                <i class="fa fa-location-arrow" style="color:#fff;background:#000 !important"></i>
                                 <h4 class="title">Address</h4>
                                 <ul>
                                     <li> Tân Hội- Đan Phượng - Hà Nội</li>

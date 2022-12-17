@@ -31,7 +31,7 @@ $result = mysqli_query($connect, $sql);
                 <?php if (!empty($_SESSION['id'])) { ?>
                     <div class="button-head">
                         <div style="width: 100%; height: 48px;" class="product-action-2">
-                        <a style="width: 100%;" href="component/add_to_cart_td.php?id=<?php echo $value['id'] ?>"><button style="background-color: #000;width: 100%;" type="button" class="btn btn-primary" >ADD TO CART</button></a>
+                        <a style="width: 100%;" href="component/add_to_cart_td.php?id=<?php echo $value['id'] ?>"><button style="background-color: #000 !important;width: 100%;" type="button" class="btn btn-primary" >ADD TO CART</button></a>
                         </div>
                     </div>
                 <?php } ?>

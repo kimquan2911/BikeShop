@@ -55,7 +55,7 @@ if ($product == null) {
                     </div>
                     <p style="text-align: justify;margin-bottom: 20px;"><?= $product['mo_ta'] ?></p>
                     <div class="product-count">
-                        <a style="width: 100%;" href="component/add_to_cart_detail.php?id=<?php echo $product['id'] ?>"> <button style="background-color: #000;" type="button" class="btn btn-primary">ADD TO CART</button></a>
+                        <a style="width: 100%;" href="component/add_to_cart_detail.php?id=<?php echo $product['id'] ?>"> <button style="background-color: #000 !important;" type="button" class="btn btn-primary">ADD TO CART</button></a>
                     </div>
                 </div>
             </div>

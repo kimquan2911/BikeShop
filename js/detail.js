@@ -24,7 +24,7 @@ $(document).ready(function () {
             smartSpeed: 200,
             slideSpeed: 500,
             slideBy: slidesPerPage,
-            navText: ['<svg width="18px" height="18px" viewBox="0 0 11 20"><path style="fill:none;stroke-width: 1px;stroke: #000;" d="M9.554,1.001l-8.607,8.607l8.607,8.606"/></svg>', '<svg width="25px" height="25px" viewBox="0 0 11 20" version="1.1"><path style="fill:none;stroke-width: 1px;stroke: #000;" d="M1.054,18.214l8.606,-8.606l-8.606,-8.607"/></svg>'],
+            navText: ['<svg width="18px" height="18px" viewBox="0 0 11 20"><path style="fill:none;stroke-width: 1px;stroke: #000 !important;" d="M9.554,1.001l-8.607,8.607l8.607,8.606"/></svg>', '<svg width="25px" height="25px" viewBox="0 0 11 20" version="1.1"><path style="fill:none;stroke-width: 1px;stroke: #000 !important;" d="M1.054,18.214l8.606,-8.606l-8.606,-8.607"/></svg>'],
             responsiveRefreshRate: 100
         }).on('changed.owl.carousel', syncPosition2);
     function syncPosition(el) {
