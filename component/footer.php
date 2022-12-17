@@ -56,7 +56,7 @@
                         <!-- Single Widget -->
                         <div class="single-footer about">
                             <div class="logo">
-                                <a href="index.php"><img src="./images/design_sua/logo.png" alt="#" style="max-width: 100px;border-radius: 50%;"></a>
+                                <a href="index.php"><img src="./images/logo_P.png" alt="#" style="max-width: 190px;"></a>
                             </div>
                             <p class="call">Got Question? Call us 24/7<span><a style="color:white">+84 0979 840 906</a></span></p>
                         </div>
