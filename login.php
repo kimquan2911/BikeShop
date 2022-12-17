@@ -38,7 +38,7 @@ if (isset($_SESSION['id'])) {
             <div style="width: 100%; height: 16%; font-size: 64px; font-weight: 700; text-align: center; line-height: 80px;text-transform: uppercase !important;list-style-type: none;">
                 <span style="font-size: 64px;
                             font-weight: 700;
-                            -webkit-text-stroke: 1px #000;
+                            -webkit-text-stroke: 1px #000 !important;
                             color: transparent;
                             margin: auto;
                             font-family: 'Raleway', sans-serif;">LOGIN</span>

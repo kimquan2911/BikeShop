@@ -99,7 +99,7 @@ session_start();
                 <div class="menu-area">
                     <!-- Main Menu -->
                     <nav class="navbar navbar-expand-lg">
-                        <a href="index.php"><img src="./images/logo_P.png" alt="logo" style="height: 40px"></a>
+                        <a href="index.php"><img src="./images/logo.png" alt="logo" style="height: 40px"></a>
                         <div class="navbar-collapse">
                             <div class="nav-inner" style="width: 100%;">
                                 <ul class="nav main-menu menu navbar-nav" 
@@ -107,7 +107,7 @@ session_start();
                                                 align-items: center;
                                                 justify-content: center;
                                                 width: 100%;">
-                                    <li><a style="color:black" class="cool-link" href="index.php">HOME</a></li>
+                                    <li><a style="color:black " class="cool-link" href="index.php">HOME</a></li>
                                     <li><a style="color:black ;" class="cool-link" href="#">PRODUCTS<i class="ti-angle-down"></i></a>
                                         <ul class="dropdown">
                                             <li><a style="color:black ;" class="cool-link" href="product_1.php">BIKES</a></li>

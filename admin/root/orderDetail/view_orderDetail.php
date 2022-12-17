@@ -24,7 +24,7 @@ $result = mysqli_query($connect, $sql);
                     </td>
                     <td><?php echo $value['quantity'] ?></td>
                     <td>
-                        <a href="./orderDetail/delete_order_detail.php?id=<?php echo $value['order_id'] ?>"><span class="fa fa-trash" style="color: #e28585;"></span></a>
+                        <a href="./orderDetail/delete_order_detail.php?id=<?php echo $value['order_id'] ?>"><span class="fa fa-trash" style="color: #000 !important;"></span></a>
                     </td>
                 </tr>
             <?php endforeach ?>

@@ -67,11 +67,11 @@
                         <div class="single-footer links">
                             <h4>Information</h4>
                             <ul>
-                                <li><a class="cool-link">About Us</a></li>
-                                <li><a class="cool-link">Faq</a></li>
-                                <li><a class="cool-link">Terms & Conditions</a></li>
-                                <li><a class="cool-link">Contact Us</a></li>
-                                <li><a class="cool-link">Help</a></li>
+                                <li><a>About Us</a></li>
+                                <li><a>Faq</a></li>
+                                <li><a>Terms & Conditions</a></li>
+                                <li><a>Contact Us</a></li>
+                                <li><a>Help</a></li>
                             </ul>
                         </div>
                         <!-- End Single Widget -->
@@ -81,11 +81,11 @@
                         <div class="single-footer links">
                             <h4>Customer Service</h4>
                             <ul>
-                                <li><a class="cool-link">Payment Methods</a></li>
-                                <li><a class="cool-link">Money-back</a></li>
-                                <li><a class="cool-link">Returns</a></li>
-                                <li><a class="cool-link">Shipping</a></li>
-                                <li><a class="cool-link">Privacy Policy</a></li>
+                                <li><a>Payment Methods</a></li>
+                                <li><a>Money-back</a></li>
+                                <li><a>Returns</a></li>
+                                <li><a>Shipping</a></li>
+                                <li><a>Privacy Policy</a></li>
                             </ul>
                         </div>
                         <!-- End Single Widget -->
@@ -105,10 +105,10 @@
                             </div>
                             <!-- End Single Widget -->
                             <ul>
-                                <li><a class="cool-link"><i class="ti-facebook"></i></a></li>
-                                <li><a class="cool-link"><i class="ti-twitter"></i></a></li>
-                                <li><a class="cool-link"><i class="ti-flickr"></i></a></li>
-                                <li><a class="cool-link"><i class="ti-instagram"></i></a></li>
+                                <li><a><i class="ti-facebook"></i></a></li>
+                                <li><a><i class="ti-twitter"></i></a></li>
+                                <li><a><i class="ti-flickr"></i></a></li>
+                                <li><a><i class="ti-instagram"></i></a></li>
                             </ul>
                         </div>
                         <!-- End Single Widget -->

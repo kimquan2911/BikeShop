@@ -50,7 +50,7 @@
                                     <div class="col-lg-6 col-12">
                                         <div class="form-group">
                                             <label>Name<span>*</span></label>
-                                            <input name="name" type="text" placeholder="">
+                                            <input name="name" type="text" placeholder="" data-rule-required="true" data-rule-minlength="3" data-msg-required="Please enter name.">
                                         </div>
                                     </div>
                                     <div class="col-lg-6 col-12">
@@ -89,14 +89,14 @@
                     <div class="col-lg-4 col-12">
                         <div class="single-head">
                             <div class="single-info">
-                                <i class="fa fa-phone" style="color:#fff;background:#000"></i>
+                                <i class="fa fa-phone" style="color:#fff;background:#000 !important"></i>
                                 <h4 class="title">Hotline:</h4>
                                 <ul>
                                     <li>0986538387</li>
                                 </ul>
                             </div>
                             <div class="single-info">
-                                <i class="fa-regular fa-envelope" style="color:#fff;background:#000"></i>
+                                <i class="fa-regular fa-envelope" style="color:#fff;background:#000 !important"></i>
                                 <h4 class="title">Email:</h4>
                                 <ul>
                                     <li><a href="mailto:info@yourwebsite.com">info@yourwebsite.com</a></li>
@@ -104,7 +104,7 @@
                                 </ul>
                             </div>
                             <div class="single-info" >
-                                <i class="fa fa-location-arrow" style="color:#fff;background:#000"></i>
+                                <i class="fa fa-location-arrow" style="color:#fff;background:#000 !important"></i>
                                 <h4 class="title">Address</h4>
                                 <ul>
                                     <li>Đường vắng - 126A - 17A - Cát Quế - Hoài Đức - Hà Nội</li>
