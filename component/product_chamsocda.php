@@ -1,7 +1,7 @@
 <?php
 require_once('./db/connect.php');
 
-$sql_so_san_pham="select count(*) from san_pham where danh_muc=N'Chăm Sóc Da'";
+$sql_so_san_pham="select count(*) from san_pham where danh_muc=N'bike'";
 $arr_so_san_pham=mysqli_query($connect,$sql_so_san_pham);
 $ket_qua=mysqli_fetch_array($arr_so_san_pham);
 $so_san_pham=$ket_qua['count(*)'];
@@ -16,15 +16,15 @@ if(isset($_GET['trang'])){
 }
 $bo_qua=$so_san_pham_mot_trang*($trang-1);
 
-// $sql = "select * from san_pham where danh_muc=N'Chăm Sóc Da' limit $so_san_pham_mot_trang offset $bo_qua";
+// $sql = "select * from san_pham where danh_muc=N'bike' limit $so_san_pham_mot_trang offset $bo_qua";
 // $result = mysqli_query($connect, $sql);
 $start = $end = "";
 if (isset($_POST['start']) && isset($_POST['end'])) {
     $start = $_POST['start'];
     $end = $_POST['end'];
-    $sql = "select * from san_pham where danh_muc=N'Chăm Sóc Da' and gia >=$start and gia<=$end";
+    $sql = "select * from san_pham where danh_muc=N'bike' and gia >=$start and gia<=$end";
 } else {
-    $sql = "select * from san_pham where danh_muc=N'Chăm Sóc Da' limit $so_san_pham_mot_trang offset $bo_qua";
+    $sql = "select * from san_pham where danh_muc=N'bike' limit $so_san_pham_mot_trang offset $bo_qua";
     // $result = mysqli_query($connect, $sql);
 }
 $result = mysqli_query($connect, $sql);
@@ -40,7 +40,7 @@ $result = mysqli_query($connect, $sql);
                 <?php if (!empty($_SESSION['id'])) { ?>
                     <div class="button-head">
                         <div style="width: 100%; height: 48px;" class="product-action-2">
-                            <a style="width: 100%;" href="component/add_to_cart_csd.php?id=<?php echo $value['id'] ?>"> <button style="background-color: #5a90e5;width: 100%;" type="button" class="btn btn-primary">Thêm vào giỏ hàng</button></a>
+                            <a style="width: 100%;" href="component/add_to_cart_csd.php?id=<?php echo $value['id'] ?>"> <button style="background-color: #000;width: 100%;" type="button" class="btn btn-primary">Add to cart</button></a>
                         </div>
                     </div>
                 <?php } ?>

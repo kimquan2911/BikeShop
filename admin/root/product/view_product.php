@@ -49,7 +49,7 @@ $result = mysqli_query($connect, $sql);
                     </td>
                     <td><img src="<?php echo $value['anh'] ?>" alt="" style="width: 100px;"></td>
                     <td>
-                        <p style="color: #820813;"><?php echo $value['gia'] ?>đ</p>
+                        <p style="color: #820813;"><?php echo $value['gia'] ?>$</p>
                     </td>
                     <td>
                         <p><?php echo $value['danh_muc'] ?></p>

@@ -30,7 +30,7 @@ session_start();
     }
     .row a:hover{
         /* background-color: transparent; */
-        color: black !important;
+        color: white !important;
     }
     .cool-link {
     display: inline-block;
@@ -70,10 +70,18 @@ session_start();
                 <div class="col-lg-7 col-md-12 col-12">
                     <div class="right-content">
                         <ul class="list-main">
+                            <style>
+                                .bs {
+                                    color:#ffff !important;
+                                }
+                                .bs:hover{
+                                    -webkit-text-stroke: 1px white !important;
+                                }
+                            </style>
                             <?php if (empty($_SESSION['id'])) { ?>
                             <?php } else { ?>
-                                <li><i style="color: #ffff;font-size: 14px;" class="fa-solid fa-user"></i><a style="color:#ffff ;" href=""><?php echo $_SESSION['name'] ?></a></li>
-                                <li><i style="color: #ffff;font-size: 14px;" class="fa-solid fa-right-from-bracket"></i><a style="color:#ffff ;" href="logout.php">Log out</a></li>
+                                <li><i style="color: #ffff;font-size: 14px;" class="fa-solid fa-user"></i><a class="bs" href=""><?php echo $_SESSION['name'] ?></a></li>
+                                <li><i style="color: #ffff;font-size: 14px;" class="fa-solid fa-right-from-bracket"></i><a class="bs" href="logout.php">Log out</a></li>
                             <?php } ?>
                         </ul>
                     </div>
@@ -82,20 +90,8 @@ session_start();
         </div>
     </div>
     <!-- End Topbar -->
-    <div class="middle-inner" style="padding:0 !important">
-        <div class="container">
-                <div class="col-lg-2 col-md-2 col-12">
-                    <!-- Logo -->
-                    <div class="logo">
-                        <a href="index.php"><img src="./images/logo_P.png" alt="logo" style="max-width: 120%;"></a>
-                    </div>
-                    <!--/ End Logo -->
-                </div>
-                     
-        </div>
-    </div>
     <!-- Header Inner -->
-    <div class="header-inner" style="background-color: #ffff;margin-bottom: 20px;">
+    <div class="header-inner" style="background-color: #ffff;margin-bottom: 5px;">
         <div class="container">
             <div class="cat-nav-head">
                 <!-- <div class="row">
@@ -103,6 +99,7 @@ session_start();
                 <div class="menu-area">
                     <!-- Main Menu -->
                     <nav class="navbar navbar-expand-lg">
+                        <a href="index.php"><img src="./images/logo_P.png" alt="logo" style="height: 40px"></a>
                         <div class="navbar-collapse">
                             <div class="nav-inner" style="width: 100%;">
                                 <ul class="nav main-menu menu navbar-nav" 
@@ -187,11 +184,7 @@ session_start();
                             </div>
                         </nav>
                     <!--/ End Main Menu -->                   
-                    </div>
-                <!-- </div>
-                </div> -->
-
-                
+                    </div>     
             </div>
         </div>
     </div>

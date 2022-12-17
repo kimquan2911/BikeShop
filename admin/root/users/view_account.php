@@ -35,13 +35,13 @@ $result = mysqli_query($connect, $sql);
                         <?php echo $value['phone_number'] ?>
                     </td>
                     <td>
-                        <p><?php echo $value['address'] ?>đ</p>
+                        <p><?php echo $value['address'] ?>$</p>
                     </td>
                     <td>
-                        <p><?php echo $value['password'] ?>đ</p>
+                        <p><?php echo $value['password'] ?>$</p>
                     </td>
                     <td>
-                        <p><?php echo $value['token'] ?>đ</p>
+                        <p><?php echo $value['token'] ?>$</p>
                     </td>
                     <!-- <td>
                         <a href="../../../admin/root/orders/read_orders.php?id=<?php echo $value['id'] ?>"><span class="fa fa-eye"></span></a>
