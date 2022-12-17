@@ -46,7 +46,7 @@
         <img src="./images/sale.png" alt="" width="200px">
     </div>
     <div class="container">
-            <p style="font-size: 50px;line-height: 75px;line-weight: 450">RECOMMENDED</p>
+            <p style="font-size: 50px;line-height: 75px;line-weight: 450">HOT SALE</p>
     </div>
     <?php include('carouselsp.php') ?>
     <!-- Start Shop Services Area -->

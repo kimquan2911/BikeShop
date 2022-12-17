@@ -13,7 +13,7 @@ session_start();
     }
     .row a:hover{
         /* background-color: transparent; */
-        color: black !important;
+        color: white !important;
     }
     .cool-link {
     display: inline-block;
@@ -53,10 +53,18 @@ session_start();
                 <div class="col-lg-7 col-md-12 col-12">
                     <div class="right-content">
                         <ul class="list-main">
+                            <style>
+                                .bs {
+                                    color:#ffff !important;
+                                }
+                                .bs:hover{
+                                    -webkit-text-stroke: 1px white !important;
+                                }
+                            </style>
                             <?php if (empty($_SESSION['id'])) { ?>
                             <?php } else { ?>
-                                <li><i style="color: #ffff;font-size: 14px;" class="fa-solid fa-user"></i><a style="color:#ffff ;" href=""><?php echo $_SESSION['name'] ?></a></li>
-                                <li><i style="color: #ffff;font-size: 14px;" class="fa-solid fa-right-from-bracket"></i><a style="color:#ffff ;" href="logout.php">Log out</a></li>
+                                <li><i style="color: #ffff;font-size: 14px;" class="fa-solid fa-user"></i><a class="bs" href=""><?php echo $_SESSION['name'] ?></a></li>
+                                <li><i style="color: #ffff;font-size: 14px;" class="fa-solid fa-right-from-bracket"></i><a class="bs" href="logout.php">Log out</a></li>
                             <?php } ?>
                         </ul>
                     </div>
@@ -116,7 +124,7 @@ session_start();
                                             <li style="display: flex;">
                                                 <div style="width: 100px;margin-right: 20px;">
                                                     <img src="<?php echo $each['anh'] ?>" width="100px" alt="">
-                                                    <p style="color: #74140d"><?php echo $each['gia'] ?>đ</p>
+                                                    <p style="color: #74140d"><?php echo $each['gia'] ?>$</p>
                                                 </div>
                                                 <div>
                                                     <p style="display: -webkit-box;
@@ -180,7 +188,7 @@ session_start();
                                     <li><a style="color:black ;" class="cool-link" href="#">STORE<i class="ti-angle-down"></i></a>
                                         <ul class="dropdown">
                                             <li><a style="color:black ;" class="cool-link" href="view_cart.php">CART</a></li>
-                                            <li><a style="color:black ;" class="cool-link" href="checkout.php">CHECK OUT</a></li>
+                                            <li><a style="color:black ;" class="cool-link" href="#">CHECK OUT</a></li>
                                         </ul>
                                     </li>
                                     <li><a style="color:black ;" class="cool-link" href="contact.php">CONTACT</a></li>

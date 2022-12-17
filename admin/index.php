@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>AdminSkinLeLe</title>
+    <title>BikeShopADMIN</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -72,7 +72,7 @@
                                 <input style="height: 40px;width: 100%;font-size: 14px" type="password" class="form-control" name="password" placeholder="Nhập mật khẩu...">
                             </div>
                             <br>
-                            <button style="height: 50px;border-radius: 5px;background-color: #5a90e5;color: #ffff;width: 80%;margin-left: 32px;" class="btn btn-default">Đăng Nhập</button>
+                            <button style="height: 50px;border-radius: 5px;background-color: #000;color: #ffff;width: 80%;margin-left: 32px;" class="btn btn-default">Đăng Nhập</button>
                         </form>
                     </div>
                 </div>
