@@ -1,6 +1,7 @@
 <?php
 require_once('config.php');
 
+
 /**
  * Su dung cho cac lenh: insert, update, delete
  */
