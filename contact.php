@@ -56,25 +56,25 @@
                                     <div class="col-lg-6 col-12">
                                         <div class="form-group">
                                             <label>Address<span>*</span></label>
-                                            <input name="address" type="text" placeholder="">
+                                            <input name="address" type="text" placeholder="" data-rule-required="true" data-rule-minlength="3" data-msg-required="Please enter address">
                                         </div>
                                     </div>
                                     <div class="col-lg-6 col-12">
                                         <div class="form-group">
                                             <label>Email<span>*</span></label>
-                                            <input name="email" type="email" placeholder="">
+                                            <input name="email" type="email" placeholder="" data-rule-required="true" data-rule-minlength="3" data-msg-required="Please enter email.">
                                         </div>
                                     </div>
                                     <div class="col-lg-6 col-12">
                                         <div class="form-group">
                                             <label>Phone number<span>*</span></label>
-                                            <input name="phone_number" type="text" placeholder="">
+                                            <input name="phone_number" type="text" placeholder="" data-rule-required="true" data-rule-minlength="3" data-msg-required="Please enter phone number.">
                                         </div>
                                     </div>
                                     <div class="col-12">
                                         <div class="form-group message">
                                             <label>Message<span>*</span></label>
-                                            <textarea name="message" placeholder=""></textarea>
+                                            <textarea name="message" placeholder="" data-rule-required="true" data-rule-minlength="3" data-msg-required="Please enter message."></textarea>
                                         </div>
                                     </div>
                                     <div class="col-12">

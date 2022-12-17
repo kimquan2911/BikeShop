@@ -91,7 +91,7 @@ session_start();
     </div>
     <!-- End Topbar -->
     <!-- Header Inner -->
-    <div class="header-inner" style="background-color: #ffff;margin-bottom: 5px;">
+    <div class="header-inner" style="background-color: #ffff;">
         <div class="container">
             <div class="cat-nav-head">
                 <!-- <div class="row">
@@ -99,7 +99,7 @@ session_start();
                 <div class="menu-area">
                     <!-- Main Menu -->
                     <nav class="navbar navbar-expand-lg">
-                        <a href="index.php"><img src="./images/logo.png" alt="logo" style="height: 40px"></a>
+                        <a href="index.php"><img src="./images/design_sua/logo.png" alt="logo" style="height: 40px"></a>
                         <div class="navbar-collapse">
                             <div class="nav-inner" style="width: 100%;">
                                 <ul class="nav main-menu menu navbar-nav" 

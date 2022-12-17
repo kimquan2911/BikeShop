@@ -63,7 +63,7 @@
                     <a href="../../tableOrders.php" class="nav-item nav-link"><i class="fas fa-shopping-basket"></i>Orders</a>
                     <a href="../../tableOrderDetail.php" class="nav-item nav-link"><i class="fas fa-user-check"></i>Orders Detail</a>
                     <a href="../../tableSign.php" class="nav-item nav-link"><i class="fas fa-user-alt"></i>Account</a>
-                    <a href="../../tableSign.php" class="nav-item nav-link"><i class="fas fa-blog"></i>View Website</a>
+                    <a href="../../../../index.php" class="nav-item nav-link"><i class="fas fa-blog"></i>View Website</a>
                 </div>
             </nav>
         </div>

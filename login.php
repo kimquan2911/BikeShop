@@ -43,7 +43,7 @@ if (isset($_SESSION['id'])) {
                             margin: auto;
                             font-family: 'Raleway', sans-serif;">LOGIN</span>
             </div>
-                <form method="POST" action="./component/process_login.php">
+                <form class="form" method="POST" action="./component/process_login.php">
                     <div style="width: 1094px;
                                 height: 38%;
                                 margin: 15px auto;
@@ -53,8 +53,8 @@ if (isset($_SESSION['id'])) {
                                     height: 100%;
                                     margin: auto;">
                             <div style="margin-top: 20px;">
-                                <input style="width: 100%; height: 100%; margin: 30px auto;border: 1px solid black;padding: 15px 20px;" type="email" class="form-control" name="email" placeholder="Email...">                             
-                                <input style="width: 100%; height: 100%; margin: 30px auto;border: 1px solid black;padding: 15px 20px;" type="password" class="form-control" name="password" placeholder="Password...">                                             
+                                <input style="width: 100%; height: 100%; margin: 30px auto;border: 1px solid black;padding: 15px 20px;" type="email" class="form-control" name="email" placeholder="Email..." data-rule-required="true" data-rule-minlength="3" data-msg-required="Please enter Email">                             
+                                <input style="width: 100%; height: 100%; margin: 30px auto;border: 1px solid black;padding: 15px 20px;" type="password" class="form-control" name="password" placeholder="Password..." data-rule-required="true" data-rule-minlength="3" data-msg-required="Please enter Password.">                                             
                             </div>
                             <div style="display: flex; margin-top: 10px;">
                                 <input name="remember" type="checkbox">
