@@ -87,7 +87,6 @@
             </div>
             <h1 style="margin-top: 20px;font-family: 'Times New Roman', Times, serif;display: flex;">
                 <p style="font-size: 30px;line-height: 50px;line-weight: 450; color:black">Total: <?php echo $total ?>$</p>
-                <p style="color: #333;">Total: <?php echo $total ?>$</p>
             </h1>
             <br>
         </div>
