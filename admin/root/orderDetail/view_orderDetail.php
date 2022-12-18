@@ -10,12 +10,12 @@ $result = mysqli_query($connect, $sql);
                 <th>order_id</th>
                 <th>product_id </th>
                 <th>quantity</th>
-                <th>Delete</th>
+                <th>Xóa</th>
             </tr>
         </thead>
         <tbody>
             <?php if (is_array($result) || is_object($result)) foreach ($result as $value) : ?>
-                <tr>>
+                <tr>
                     <td>
                         <p><?php echo $value['order_id'] ?></p>
                     </td>
@@ -24,7 +24,9 @@ $result = mysqli_query($connect, $sql);
                     </td>
                     <td><?php echo $value['quantity'] ?></td>
                     <td>
-                        <a href="./orderDetail/delete_order_detail.php?id=<?php echo $value['order_id'] ?>"><span class="fa fa-trash" style="color: #000 !important;"></span></a>
+                        <form action="./orderDetail/code.php" method="POST" class="d-inline">
+                            <button type="submit" name="delete" value="<?php echo $value['order_id'] ?>" class="btn btn-danger btn-sm">Delete</button>
+                        </form>
                     </td>
                 </tr>
             <?php endforeach ?>

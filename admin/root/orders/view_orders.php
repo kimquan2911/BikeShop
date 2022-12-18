@@ -3,7 +3,7 @@ require_once('./db/connect.php');
 $sql = "select * from orders";
 $result = mysqli_query($connect, $sql);
 ?>
-<!-- <a href="../../../admin/root/orders/create_order.php" style="float: right; background-color: #000 !important;" class="btn btn-success pull-right"><i class="fa fa-plus"></i> Add New Product</a> -->
+<!-- <a href="../../../admin/root/orders/create_order.php" style="float: right; background-color: #191C24;" class="btn btn-success pull-right"><i class="fa fa-plus"></i> Add New Product</a> -->
 <div class="table-responsive">
     <table class="table">
         <thead>
@@ -16,6 +16,7 @@ $result = mysqli_query($connect, $sql);
                 <th>total_price</th>
                 <th>status</th>
                 <th>created_at</th>
+                <th>Xem</th>
                 <th>Sửa</th>
                 <th>Xóa</th>
             </tr>
@@ -45,14 +46,16 @@ $result = mysqli_query($connect, $sql);
                     <td>
                         <p><?php echo $value['created_at'] ?></p>
                     </td>
-                    <!-- <td>
-                        <a href="../../../admin/root/orders/read_orders.php?id=<?php echo $value['id'] ?>"><span class="fa fa-eye"></span></a>
-                    </td> -->
                     <td>
-                        <a href="./orders/update_order.php?id=<?php echo $value['id'] ?>"><span class="fa fa-pencil" style="color: #000 !important;"></a>
+                        <a href="./orders/view_order.php?id=<?php echo $value['id'] ?>"><span class="fa fa-eye" style="color: #191C24;"></span></a>
                     </td>
                     <td>
-                        <a href="./orders/delete_order.php?id=<?php echo $value['id'] ?>"><span class="fa fa-trash" style="color: #000 !important;"></span></a>
+                        <a href="./orders/edit_order.php?id=<?php echo $value['id'] ?>"><span class="fa fa-pencil" style="color: #191C24;"></a>
+                    </td>
+                    <td>
+                        <form action="./orders/code.php" method="POST" class="d-inline">
+                            <button type="submit" name="delete" value="<?php echo $value['id'] ?>" class="btn btn-danger btn-sm">Delete</button>
+                        </form>
                     </td>
                 </tr>
             <?php endforeach ?>

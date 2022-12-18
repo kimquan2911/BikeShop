@@ -26,36 +26,36 @@ session_start();
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-header">
-                        <h4>value Add
-                            <a href="../productTable.php" class="btn btn-danger float-end">BACK</a>
+                        <h4>
+                            <a href="../tableSign.php" class="btn btn-danger float-end">BACK</a>
                         </h4>
                     </div>
                     <div class="card-body">
                         <form class="form" action="code.php" method="POST">
 
                             <div class="mb-3">
-                                <label>ten_san</label>
-                                <input type="text" name="ten_san" class="form-control" data-rule-required="true" data-rule-minlength="6" data-msg-required="Please enter ten san pham.">
+                                <label>name</label>
+                                <input type="text" name="name" class="form-control" data-rule-required="true" data-rule-minlength="6" data-msg-required="Please enter name.">
                             </div>
                             <div class="mb-3">
-                                <label>mo_ta</label>
-                                <input type="text" name="mo_ta" class="form-control" data-rule-required="true" data-msg-required="Please enter mo ta.">
+                                <label>email</label>
+                                <input type="email" name="email" class="form-control" data-rule-email="true" data-msg-email="Please enter email.">
                             </div>
                             <div class="mb-3">
-                                <label>anh</label>
-                                <input type="text" name="anh" class="form-control" data-rule-required="true" data-msg-required="Please enter anh.">
+                                <label>phone_number</label>
+                                <input type="text" name="phone_number" class="form-control" data-rule-required="true" data-rule-minlength="10" data-msg-required="Please enter phone.">
                             </div>
                             <div class="mb-3">
-                                <label>gia</label>
-                                <input type="text" name="gia" class="form-control" data-rule-required="true" data-rule-minlength="5" data-msg-required="Please enter gia.">
+                                <label>address</label>
+                                <input type="text" name="address" class="form-control" data-rule-required="true" data-rule-minlength="6" data-msg-required="Please enter address.">
                             </div>
                             <div class="mb-3">
-                                <label>khuyen_mai</label>
-                                <input type="text" name="khuyen_mai" class="form-control" data-rule-required="true" data-rule-minlength="5" data-msg-required="Please enter khuyen mai.">
+                                <label>password</label>
+                                <input type="text" name="password" class="form-control" data-rule-required="true" data-rule-minlength="3" data-msg-required="Please enter password.">
                             </div>
                             <div class="mb-3">
-                                <label>danh_muc</label>
-                                <input type="text" name="danh_muc" class="form-control" data-rule-required="true" data-rule-minlength="3" data-msg-required="Please enter danh muc.">
+                                <label>token</label>
+                                <input type="text" name="token" class="form-control">
                             </div>
                             <div class="mb-3">
                                 <button type="submit" name="save" class="btn btn-primary">Save value</button>
@@ -67,8 +67,6 @@ session_start();
             </div>
         </div>
     </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 
     <?php include('../jquery_from.php') ?>
 </body>
