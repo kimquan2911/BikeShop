@@ -1,5 +1,5 @@
 <?php
 
-$connect = mysqli_connect('localhost', 'root', '1', 'bikeshop');
+$connect = mysqli_connect('localhost', 'root', 'admin','bikeshop');
 
 mysqli_set_charset($connect, 'utf8');

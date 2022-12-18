@@ -8,7 +8,7 @@ include('../../admin/root/db/config.php')
 
 <head>
     <meta charset="utf-8">
-    <title>BikeShopADMIN</title>
+    <title>BikeShop</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -25,17 +25,13 @@ include('../../admin/root/db/config.php')
             </div>
         </div>
         <!-- Spinner End -->
-<style>
-    .color_{
-        color: black !important;
-    }
-</style>
+
 
         <!-- Sidebar Start -->
         <div class="sidebar pe-4 pb-3">
             <nav class="navbar bg-light navbar-light">
                 <a href="index.php" class="navbar-brand mx-4 mb-3">
-                    <h3 class="text-primary color_">BIKESHOP</h3>
+                    <h3 class="text-primary">BIKESHOP</h3>
                 </a>
                 <div class="d-flex align-items-center ms-4 mb-4">
                     <div class="position-relative">
@@ -89,26 +85,19 @@ include('../../admin/root/db/config.php')
                 </div>
             </nav>
             <!-- Navbar End -->
-            <div style="margin-top:20px">
-                <img style="width: 100%" src="../../images/design_sua/slide2.png" alt="">
-            </div>
-        <!-- Back to Top -->
-        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+        </div>
+    </div>
+    <!-- Widgets End -->
+    </div>
+    <!-- Content End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
     </div>
 
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/chart/chart.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/tempusdominus/js/moment.min.js"></script>
-    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
-    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
-
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
+    <?php include('./jquery.php') ?>
 </body>
 
 </html>

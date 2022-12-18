@@ -99,15 +99,15 @@
                                 <i class="fa-regular fa-envelope" style="color:#fff;background:#000 !important"></i>
                                 <h4 class="title">Email:</h4>
                                 <ul>
-                                    <li><a href="mailto:info@yourwebsite.com">info@yourwebsite.com</a></li>
-                                    <li><a href="mailto:info@yourwebsite.com">support@yourwebsite.com</a></li>
+                                    <li><a href="mailto:kim@pinarello.com">kimquan@pinarello.com</a></li>
+                                    <li><a href="mailto:support@pinarello.com">support@pinarello.com</a></li>
                                 </ul>
                             </div>
                             <div class="single-info" >
                                 <i class="fa fa-location-arrow" style="color:#fff;background:#000 !important"></i>
                                 <h4 class="title">Address</h4>
                                 <ul>
-                                    <li>Đường vắng - 126A - 17A - Cát Quế - Hoài Đức - Hà Nội</li>
+                                    <li> Tân Hội- Đan Phượng - Hà Nội</li>
                                 </ul>
                             </div>
                         </div>

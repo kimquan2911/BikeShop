@@ -236,7 +236,7 @@ a {
 }
 
 a:hover {
-    color: #191C24
+    color: #007dcc
 }
 
 a:not([href]):not([class]),
@@ -703,7 +703,6 @@ progress {
     margin-right: calc(var(--bs-gutter-x) / -2);
     margin-left: calc(var(--bs-gutter-x) / -2)
 }
-
 
 .row>* {
     flex-shrink: 0;
@@ -1994,7 +1993,7 @@ progress {
 
 .table {
     --bs-table-bg: rgba(0, 0, 0, 0);
-    --bs-zz-striped-color: #757575;
+    --bs-table-striped-color: #757575;
     --bs-table-striped-bg: rgba(0, 0, 0, 0.05);
     --bs-table-active-color: #757575;
     --bs-table-active-bg: rgba(0, 0, 0, 0.1);
